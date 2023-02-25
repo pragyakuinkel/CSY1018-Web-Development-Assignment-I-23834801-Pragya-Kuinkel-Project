@@ -1,3 +1,4 @@
+/*CSS for header.*/
 body{
     margin:0;
 }
@@ -5,7 +6,6 @@ ul {
     list-style-type: none;
     display: flex;
 }
-
 .nav-header {
     display: flex;
     text-align: center;
@@ -16,28 +16,23 @@ ul {
     font-weight: 500px;
     font-style: initial;
 }
-
 .name {
     float: right;
     padding: 12px 370px 12px 12px;
     color: #36162e;
     font-weight: bolder;
 }
-
 .nav-bar {
     float: left;
 }
-
 .nav-list {
     float: left;
     padding: 12px;
 }
-
 header {
     position: sticky;
     background-color: #887575 ;
 }
-
 a {
     text-decoration: none;
     color: #36162e;
@@ -45,7 +40,41 @@ a {
     font-weight: bolder;
 }
 .active {
-    font-weight: bolder;
+    font-size: x-large;
     background-color: #f6e8e8;
     border-radius: 35px;
+}
+/*CSS for section-1 of page "index.html"*/
+.home-section-1{
+    background-color: #f0ece2;
+}
+.h2-headings{
+color: #36162e;
+font-size: 50px; 
+text-align: left;
+padding:   200px 20px 0 4px;
+margin-bottom: 0;
+}
+.para-tag-1 {
+    color: #36162e;
+    font-size: 50px;
+    text-align: center;
+    padding-left: 4px;
+    margin-top: 0;
+}
+.home-1-main-div-1{
+    display: flex;
+}
+.home-1-div-1{
+    float: left;
+    padding-left: 80px;
+}
+.home-1-div-2{
+    float: right;
+    width: 800px;
+}
+.home-1-image-1{
+    width: 500px;
+    height: auto;
+    padding: 34px 30px 34px 470px;
 }
