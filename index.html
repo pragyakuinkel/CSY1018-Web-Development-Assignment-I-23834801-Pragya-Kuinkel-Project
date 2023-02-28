@@ -1,49 +1,106 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title>Portfolio/Home</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
         <link rel=" stylesheet" href="css/portfolio.css">
+        <style>
+            /*Navigation Bar*/
+            body{
+                margin: 0;
+            }
+            .navigation-bar{ 
+                background-color: rgb(14, 103, 103);
+                position: fixed;
+                width: 100%;
+                margin: 0;
+            }
+            ul{
+                list-style-type: none;
+                text-align: center;
+                overflow: hidden;
+                padding: 0 10px;
+                margin: 5px;
+            }
+            .name{
+                text-align: center;
+                display: block;
+                
+            }
+            .nav-menu-list a{
+                text-decoration: none;
+                color: black;
+                display: block;
+            }
+            .active{
+                background-color: aqua;
+                border-radius: 33px;
+            }
+            /*For Hmburger Menu in Phone*/
+           .nav-menu-list{ 
+                clear:both;
+                max-height:0;
+                transition:max-height .4s ease-out;
+            }
+            .menu-icon{
+            padding: 29px 18px;
+            position:relative;
+            float: right;
+            }
+            .nav-icon-head{
+                background-color:#31142a ;
+                display:block;
+                height:3px;
+                width:20px;
+                position:relative;
+                transition: background .4s ease-out;
+                float: right;
+            }
+            .nav-icon-head:before{
+                background: #31142a;
+                content:"";
+                display:block;
+                height:100%;
+                width:100%;
+                position:absolute;
+                top:5px;
+                transition: all .2s ease-out;
+            }
+            .nav-icon-head:after{
+                background: #31142a;
+                content:"";
+                display:block;
+                height:100%;
+                width:100%;
+                position:absolute;
+                top:-5px;
+                transition: all .2s ease-out;
+            }  
+            .menu-btn{
+                display: none;
+            } 
+            .menu-btn:checked ~ .nav-menu-list{
+                max-height: 240px;
+            }   
+            
+        </style>
     </head>
-    <style>
-    
-    </style>
     <body>
-        <!--This is the start of header/navigation bar of the website.-->
         <header>
-            <nav>
-                <ul class="nav-header">
-                    <li class="name">Pragya Kuinkel</li>
-                    <li class="nav-bar">
-                        <ul>
-                            <li class="nav-list active"><a href="index.html"> Home </a></li>
-                            <li class="nav-list"><a href="portfolio.html"> About Me </a></li>
-                            <li class="nav-list "><a href="contact.html"> Contact</a></li>
-                            <li class="nav-list"><a href="workexperience.html"> Work Experience</a></li>
-                            <li class="nav-list"><a href="sitereport.html">Report</a></li>
-                        </ul>
-                    </li>
+            <nav class="navigation-bar">
+                <input class="menu-btn" type="checkbox" id="menu-btn"/>
+                <label class="menu-icon" for="menu-btn"><span class="nav-icon-head"></span></label>
+                <h3 class="name">Pragya Kuinkel</h3>
+                <ul class="nav-menu-list">
+                    <li class="nav-list active"><a href="index.html"> Home </a></li>
+                    <li class="nav-list"><a href="portfolio.html"> About Me </a></li>
+                    <li class="nav-list "><a href="contact.html"> Contact</a></li>
+                    <li class="nav-list"><a href="workexperience.html"> Work Experience</a></li>
+                    <li class="nav-list"><a href="sitereport.html">Report</a></li>
                 </ul>
-            </nav>
+            </nav>    
         </header>
-        <!--This is where the body of the page begins.-->
-        <main>
-            <!--First Section-->
-            <section class="home-section-1">
-                <div class="home-1-main-div-1">
-                    <!--Left Section-->
-                    <div class="home-1-div-1">
-                        <h2 class="h2-headings">Hello!</h2>
-                        <p class="para-tag-1">I am Pragya Kuinkel.</p>
-                    </div>
-                    <!--Right Section-->
-                    <div class="home-1-div-2">
-                        <img class="home-1-image-1" src="image/homepage1.JPG">
-                    </div>   
-                </div>    
-            </section>
-        </main>
-        <footer>
-
-        </footer>
     </body>
 </html>
