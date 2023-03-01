@@ -1,0 +1,193 @@
+/*CSS for body*/
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+/*HEADER/NAVIGATION BAR*/
+/*CSS for navigation Bar*/
+.navigation-bar {
+    background-color: #94bda2;
+    position: fixed;
+    width: 100%;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    text-align: right;
+    overflow: hidden;
+    padding: 0 10px;
+    margin: 5px;
+}
+
+.name {
+    text-align: center;
+    display: block;
+    font-size: 30px;
+    margin: 0 0 0 auto;
+    color: #000;
+}
+
+.nav-menu-list a {
+    text-decoration: none;
+    color: #000;
+    display: block;
+    font-weight: bolder;
+    margin: 0;
+}
+
+/*CSS for Hamburger Icon that is shown in smaller screen.*/
+.nav-menu-list {
+    clear: both;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+}
+
+.menu-icon {
+    padding: 20px 40px 15px 50px;
+    position: relative;
+    float: right;
+}
+
+.nav-icon-head {
+    background-color: #000;
+    display: block;
+    height: 4px;
+    width: 20px;
+    position: relative;
+    transition: background .2s ease-out;
+    float: right;
+}
+
+.nav-icon-head:before {
+    background: #000;
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 5px;
+    transition: all .2s ease-out;
+}
+
+.nav-icon-head:after {
+    background:#000;
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: -5px;
+    transition: all .2s ease-out;
+}
+
+.menu-btn {
+    display: none;
+}
+
+.menu-btn:checked~.nav-menu-list {
+    max-height: 240px;
+}
+
+.home-1-main-div-1 {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+/*HOME PAGE*/
+/*div-1 section 1 home page*/
+.home-1-div-1 {
+    background-color: #fdfed7;
+    padding: 80px 15px 15px 15px;
+}
+
+.home-page-image-1 {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*div-2 section 1 home page*/
+.home-1-div-2 {
+    background-color: #fdfed7;
+    padding: 10px 50px 10px 50px;
+}
+
+.para-tag-1 {
+    color: #605e32;
+    text-align: center;
+}
+
+.para-name-tag-1 {
+    text-align: right;
+    font-style: italic;
+    color: #605e32;
+}
+
+/*Home page section 2 for smaller screen*/
+.home-section-2 {
+    background-color: #edf1b0;
+    color: #605e32;
+}
+
+.home-2-main-div-2 {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+/*div-1 section 2 home page*/
+.home-2-div-1 {
+    padding: 10px
+}
+
+.home-page-image-2 {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.heading-2-home-page {
+    text-align: center;
+    text-shadow: #3a391e;
+    margin: 0px;
+}
+
+.para-tag-1 a {
+    color: #605e32;
+    font-style: italic;
+    font-size: large;
+}
+
+/*FOOTER*/
+.footer-main-div {
+    background-color: #94bda2;
+    display: grid;
+    grid-template-columns: auto;
+    padding: 30px;
+}
+
+.footer-image {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.heading-footer {
+    text-align: center;
+    text-shadow: #3a391e;
+    margin: 0px;
+    font-size: medium;
+}
+
+
+
+
+
+
