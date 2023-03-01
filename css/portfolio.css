@@ -15,7 +15,7 @@ body {
 
 ul {
     list-style-type: none;
-    text-align: right;
+    text-align: center;
     overflow: hidden;
     padding: 0 10px;
     margin: 5px;
@@ -35,6 +35,11 @@ ul {
     display: block;
     font-weight: bolder;
     margin: 0;
+}
+
+.active{
+    background-color:#aae1bd;
+    border-radius: 20px;
 }
 
 /*CSS for Hamburger Icon that is shown in smaller screen.*/
@@ -186,7 +191,136 @@ ul {
     font-size: medium;
 }
 
+/*CSS for laptop Screen*/
+@media (width >=800px) {
+    /*HEADER/NAVIGATION BAR*/
+    /*CSS for navigation bar in Laptop screen*/
+    .navigation-bar {
+        display: flex;
+        background-color: transparent;
+    }
 
+    .name {
+        text-align: right;
+        padding: 20px 50px;
+        font-size: large;
+        margin-left: auto;
+        
+    }
+
+    .nav-menu-list {
+        clear: none;
+        overflow: visible;
+        max-height: none;
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-menu-list a{
+        color:#3a391e
+    }
+
+    .menu-icon {
+        display: none;
+    }
+
+    .nav-list {
+        padding: 12px;
+        text-justify: distribute;
+        font-size: larger;
+        color:#3a391e;
+    }   
+    
+    .active{
+        background-color:#aae1bd;
+        border-radius: 45px;
+    }
+    
+    /*HOME PAGE*/
+    /*CSS of section 1 of home page for laptop Screen*/
+    .home-1-main-div-1 {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    /*CSS of first div of main div section 1*/
+    .home-1-div-1 {
+        background-color: #e0ffcd;
+        float: right;
+        padding: 100px;
+    }
+    .home-page-image-1 {
+        width:500px;
+        display: block;
+        margin-left: auto;
+        margin-right:auto ;
+        height: auto;    
+    }
+
+    /*CSS of second div of main div section 1*/
+    .home-1-div-2 {
+        color: #f0ece2;
+        padding: 300px 50px 200px 50px;
+        float: left;
+    }
+    .para-tag-1{
+        text-align: left;
+        font-size: x-large;
+       
+    }
+
+    /*CSS of section 2 of home page*/
+    .home-2-main-div-2{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .home-2-div-1{
+        float: right;
+        padding :50px;
+    }
+
+    .home-page-image-2{
+        width:300px;
+        display: block;
+        margin-left: auto;
+        margin-right:auto ;
+        height: auto;
+    }
+
+    .home-2-div-2{
+        float: left;
+        padding: 100px 150px;
+    }
+
+    .heading-2-home-page{
+        text-align: center;
+        font-size: xx-large;
+    }
+    .home-2-div-2 .para-tag-1{
+        border: 2px solid #3a391e;
+        border-radius: 45px;
+        text-align: center;
+        padding: 10px;
+    }
+
+    /*FOOTER*/
+    .footer-main-div{
+        padding:100px  80px 20px 80px;
+    }
+    .heading-footer{
+        font-size: x-large;
+    }
+    .footer-image{
+        display: block;
+        margin-left:auto;
+        margin-right: auto;
+        width: 150px;
+        height:auto
+    }
+}
 
 
 

@@ -1,26 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title>Portfolio/Work Experience</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Title of the web page-->
+        <title>Portfolio</title>
+        <!--Link of external CSS-->
         <link rel=" stylesheet" href="css/portfolio.css">
     </head>
     <body>
-        <!--This is the start of header/navigation bar of the website.-->
         <header>
-            <nav>
-                <ul class="nav-header">
-                    <li class="name">Pragya Kuinkel</li>
-                    <li class="nav-bar">
-                        <ul>
-                            <li class="nav-list "><a href="index.html"> Home </a></li>
-                            <li class="nav-list"><a href="portfolio.html"> About Me </a></li>
-                            <li class="nav-list "><a href="contact.html"> Contact</a></li>
-                            <li class="nav-list active"><a href="workexperience.html"> Work Experience</a></li>
-                            <li class="nav-list"><a href="sitereport.html">Report</a></li>
-                        </ul>
-                    </li>
+            <!--Navigation Bar-->
+            <nav class="navigation-bar">
+                <!--For Hamburger icon-->
+                <input class="menu-btn" type="checkbox" id="menu-btn"/>
+                <label class="menu-icon" for="menu-btn"><span class="nav-icon-head"></span></label>
+                 <h3 class="name">Portfolio</h3>
+                 <!--Menu items -->
+                <ul class="nav-menu-list">
+                    <li class="nav-list "><a href="index.html"> Home </a></li>
+                    <li class="nav-list"><a href="portfolio.html"> About Me </a></li>
+                    <li class="nav-list "><a href="contact.html"> Contact</a></li>
+                    <li class="nav-list active"><a href="workexperience.html"> Work Experience</a></li>
+                    <li class="nav-list"><a href="sitereport.html">Report</a></li>
                 </ul>
-            </nav>
+            </nav>    
         </header>
          <!--This is where the body of the page begins.-->
         <main>
@@ -29,8 +34,17 @@
           
             </section>
         </main>
-        <footer>
-
+         <!--Footer-->
+         <footer>
+            <!--Footer main Div-->
+            <div class="footer-main-div">
+                <div class="footer-div-1">
+                    <h2 class="heading-footer">Find me on</h2>
+                </div>
+                <div class="footer-div-2">
+                    <img class="footer-image" src="image/footerimage.png">
+                </div>
+            </div>
         </footer>
     </body>
 </html>

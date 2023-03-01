@@ -1,36 +1,87 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title>Portfolio/About Me</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Title of the web page-->
+        <title>Portfolio</title>
+        <!--Link of external CSS-->
         <link rel=" stylesheet" href="css/portfolio.css">
+        <style>
+            /*PORTFOLIO/ABOUT ME*/
+            /*Section 1 of About me page*/
+            /*Main Div*/
+            .portfolio-section-1{
+                display: grid;
+                grid-template-columns: auto;
+            }
+            /*First child div of portfolio section 1*/
+            .portfolio-image-extra{
+                display: none;
+            }
+            /*Second Child of portfolio section 1*/
+            /*First Inner-Child*/
+            .div-1-portfolio-2{
+                display:grid;
+                grid-template-columns: auto;
+                background-color: #b7d7ce;
+                padding: 80px 30px 30px 30px;
+            }
+            .portfolio-image-1{
+                width: 300px;
+                height: auto;
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+            }
+            .about-me-list{
+                font-size: larger;
+                font-weight: bold;
+                color: #484725;
+                border: 2px solid #605e32;
+                border-radius: 30px;
+                text-align: left;
+                margin: 25px 25px 25px 15px;
+                padding:10px;
+            }
+            /*Section 2 of portfolio Page*/
+            /*Main Div*/
+        </style>
     </head>
     <body>
-        <!--This is the start of header/navigation bar of the website.-->
         <header>
-            <nav>
-                <ul class="nav-header">
-                    <li class="name">Pragya Kuinkel</li>
-                    <li class="nav-bar">
-                        <ul>
-                            <li class="nav-list "><a href="index.html"> Home </a></li>
-                            <li class="nav-list active"><a href="portfolio.html"> About Me </a></li>
-                            <li class="nav-list "><a href="contact.html"> Contact</a></li>
-                            <li class="nav-list"><a href="workexperience.html"> Work Experience</a></li>
-                            <li class="nav-list"><a href="sitereport.html">Report</a></li>
-                        </ul>
-                    </li>
+            <!--Navigation Bar-->
+            <nav class="navigation-bar">
+                <!--For Hamburger icon-->
+                <input class="menu-btn" type="checkbox" id="menu-btn"/>
+                <label class="menu-icon" for="menu-btn"><span class="nav-icon-head"></span></label>
+                 <h3 class="name">Portfolio</h3>
+                 <!--Menu items -->
+                <ul class="nav-menu-list">
+                    <li class="nav-list"><a href="index.html"> Home </a></li>
+                    <li class="nav-list active"><a href="portfolio.html"> About Me </a></li>
+                    <li class="nav-list "><a href="contact.html"> Contact</a></li>
+                    <li class="nav-list"><a href="workexperience.html"> Work Experience</a></li>
+                    <li class="nav-list"><a href="sitereport.html">Report</a></li>
                 </ul>
-            </nav>
+            </nav>    
+        </header>
         </header>
         <!--This is where the body of the page begins.-->
         <main>
-            <!--First Section-->
-            <section>
-          
-            </section>
-        </main>
-        <footer>
 
+        <!--Footer-->
+        <footer>
+            <!--Footer main Div-->
+            <div class="footer-main-div">
+                <div class="footer-div-1">
+                    <h2 class="heading-footer">Find me on</h2>
+                </div>
+                <div class="footer-div-2">
+                    <img class="footer-image" src="image/footerimage.png">
+                </div>
+            </div>
         </footer>
     </body>
 </html>
