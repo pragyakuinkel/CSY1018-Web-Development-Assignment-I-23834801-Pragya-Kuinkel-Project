@@ -37,8 +37,8 @@ ul {
     margin: 0;
 }
 
-.active{
-    background-color:#aae1bd;
+.active {
+    background-color: #aae1bd;
     border-radius: 20px;
 }
 
@@ -77,7 +77,7 @@ ul {
 }
 
 .nav-icon-head:after {
-    background:#000;
+    background: #000;
     content: "";
     display: block;
     height: 100%;
@@ -100,6 +100,21 @@ ul {
     grid-template-columns: auto;
 }
 
+.menu-btn:checked~.menu-icon .nav-icon-head {
+    background-color: transparent;
+}
+
+.menu-btn:checked~.menu-icon .nav-icon-head::before {
+    transform: rotate(-45deg);
+    top: 0;
+}
+
+.menu-btn:checked~.menu-icon .nav-icon-head::after {
+    transform: rotate(+45deg);
+    top: 0;
+}
+
+
 /*HOME PAGE*/
 /*div-1 section 1 home page*/
 .home-1-div-1 {
@@ -113,6 +128,7 @@ ul {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 30px;
 }
 
 /*div-2 section 1 home page*/
@@ -191,8 +207,126 @@ ul {
     font-size: medium;
 }
 
+/*PORTFOLIO/ABOUT ME*/
+/*Section 1 of About me page*/
+/*Main Div*/
+.portfolio-1-main-div-1 {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+/*First child div of portfolio section 1*/
+
+.div-1-portfolio-2 {
+    display: grid;
+    grid-template-columns: auto;
+    background-color: #b7d7ce;
+    padding: 80px 30px 30px 30px;
+}
+
+/*First inner child of section 1 div 1 of portfolio*/
+.portfolio-image-1 {
+    width: 300px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 30px;
+}
+
+/*Second inner child of section 1 div 1 of portfolio*/
+.about-me-list {
+    font-size: larger;
+    font-weight: bold;
+    color: #484725;
+    border: 2px solid #605e32;
+    border-radius: 30px;
+    text-align: left;
+    margin: 25px 25px 25px 15px;
+    padding: 10px;
+}
+
+
+/*Second Child of portfolio section 1*/
+.div-1-portfolio-1 {
+    background-color: #e8ffc1;
+    padding: 20px;
+    border: 2px solid #605e32;
+    border-radius: 30px;
+    margin: 30px;
+}
+
+.portfolio-heading-1 {
+    font-size: x-large;
+    color: #605e32;
+    text-align: center;
+}
+
+.portfolio-about-me-para {
+    font-size: large;
+    text-align: left;
+    font-family: serif;
+}
+
+/*Section 2 of portfolio section*/
+/*Main Div*/
+.portfolio-2-main-2 {
+    display: grid;
+    grid-template-columns: auto;
+    background-color: #a7b99e;
+}
+
+/*First Child Div of portfolio section 2*/
+.portfolio-2-div-1 {
+    background-color: #a7b99e;
+}
+
+.gallary-image-1 {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: 0px auto 20px auto;
+}
+
+/*Second child Div of portfolio section 2*/
+.portfolio-2-div-2 {
+    display: grid;
+    grid-template-columns: auto;
+    background-color: #a7b99e;
+}
+
+/*First Inner-child div of Second child Div of portfolio section 2*/
+.gallary-image-2 {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: 0px auto 20px auto;
+}
+
+/*Second Inner-child div of Second child Div of portfolio section 2*/
+.gallary-image-3 {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: 0px auto 20px auto;
+}
+
+/*Third Child Div of portfolio section 2*/
+.portfolio-2-div-3 {
+    background-color: #a7b99e;
+}
+
+.gallary-image-4 {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: 0px auto 0px auto;
+    padding-bottom: 30px;
+}
+
 /*CSS for laptop Screen*/
-@media (width >=800px) {
+@media (width >=900px) {
+
     /*HEADER/NAVIGATION BAR*/
     /*CSS for navigation bar in Laptop screen*/
     .navigation-bar {
@@ -205,7 +339,7 @@ ul {
         padding: 20px 50px;
         font-size: large;
         margin-left: auto;
-        
+
     }
 
     .nav-menu-list {
@@ -218,8 +352,8 @@ ul {
         text-align: center;
     }
 
-    .nav-menu-list a{
-        color:#3a391e
+    .nav-menu-list a {
+        color: #3a391e
     }
 
     .menu-icon {
@@ -230,14 +364,14 @@ ul {
         padding: 12px;
         text-justify: distribute;
         font-size: larger;
-        color:#3a391e;
-    }   
-    
-    .active{
-        background-color:#aae1bd;
+        color: #3a391e;
+    }
+
+    .active {
+        background-color: #aae1bd;
         border-radius: 45px;
     }
-    
+
     /*HOME PAGE*/
     /*CSS of section 1 of home page for laptop Screen*/
     .home-1-main-div-1 {
@@ -251,12 +385,14 @@ ul {
         float: right;
         padding: 100px;
     }
+
     .home-page-image-1 {
-        width:500px;
+        width: 500px;
         display: block;
         margin-left: auto;
-        margin-right:auto ;
-        height: auto;    
+        margin-right: auto;
+        height: auto;
+        border-radius: 35px;
     }
 
     /*CSS of second div of main div section 1*/
@@ -265,41 +401,43 @@ ul {
         padding: 300px 50px 200px 50px;
         float: left;
     }
-    .para-tag-1{
+
+    .para-tag-1 {
         text-align: left;
         font-size: x-large;
-       
+
     }
 
     /*CSS of section 2 of home page*/
-    .home-2-main-div-2{
+    .home-2-main-div-2 {
         display: grid;
         grid-template-columns: auto auto;
     }
 
-    .home-2-div-1{
+    .home-2-div-1 {
         float: right;
-        padding :50px;
+        padding: 50px;
     }
 
-    .home-page-image-2{
-        width:300px;
+    .home-page-image-2 {
+        width: 300px;
         display: block;
         margin-left: auto;
-        margin-right:auto ;
+        margin-right: auto;
         height: auto;
     }
 
-    .home-2-div-2{
+    .home-2-div-2 {
         float: left;
         padding: 100px 150px;
     }
 
-    .heading-2-home-page{
+    .heading-2-home-page {
         text-align: center;
         font-size: xx-large;
     }
-    .home-2-div-2 .para-tag-1{
+
+    .home-2-div-2 .para-tag-1 {
         border: 2px solid #3a391e;
         border-radius: 45px;
         text-align: center;
@@ -307,21 +445,33 @@ ul {
     }
 
     /*FOOTER*/
-    .footer-main-div{
-        padding:100px  80px 20px 80px;
+    .footer-main-div {
+        padding: 100px 80px 20px 80px;
     }
-    .heading-footer{
+
+    .heading-footer {
         font-size: x-large;
     }
-    .footer-image{
+
+    .footer-image {
         display: block;
-        margin-left:auto;
+        margin-left: auto;
         margin-right: auto;
         width: 150px;
-        height:auto
+        height: auto
+    }
+
+    /*PORTFOLIO PAGE*/
+    /*Section 1 of portfolio page*/
+    .portfolio-section-1 {}
+
+    .div-1-portfolio-1 {
+        display: grid;
+        grid-template-columns: auto auto;
+        float: left;
+    }
+
+    .portfolio-image-extra {
+        display: block;
     }
 }
-
-
-
-
