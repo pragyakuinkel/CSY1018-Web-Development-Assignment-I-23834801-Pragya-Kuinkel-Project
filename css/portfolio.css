@@ -4,6 +4,8 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
+/*CSS for mobile screen*/
+
 /*HEADER/NAVIGATION BAR*/
 /*CSS for navigation Bar*/
 .navigation-bar {
@@ -25,7 +27,7 @@ ul {
     text-align: center;
     display: block;
     font-size: 30px;
-    margin: 0 0 0 auto;
+    margin: 3px 0 0 auto;
     color: #000;
 }
 
@@ -49,74 +51,66 @@ ul {
     transition: max-height .2s ease-out;
 }
 
-.menu-icon {
-    padding: 20px 40px 15px 50px;
-    position: relative;
+.hamburger-icon {
+    padding: 10px 40px;
     float: right;
 }
 
+.nav-icon{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-row-gap:0px;
+}
+
+/* hamburger Icon*/
 .nav-icon-head {
     background-color: #000;
-    display: block;
     height: 4px;
     width: 20px;
-    position: relative;
+    content: "";
     transition: background .2s ease-out;
-    float: right;
+    float: right;  
+    margin: 5px 0px;
 }
 
-.nav-icon-head:before {
-    background: #000;
+.nav-icon-head-1 {
+    background-color: #000;
+    height: 4px;
+    width: 20px;
     content: "";
-    display: block;
-    height: 100%;
-    width: 100%;
-    position: absolute;
+    transition: background .2s ease-out;
+    float: right;   
     top: 5px;
-    transition: all .2s ease-out;
+    margin: 5px 0px;
 }
 
-.nav-icon-head:after {
-    background: #000;
+.nav-icon-head-2 {
+    background-color: #000;
+    height: 4px;
+    width: 20px;
     content: "";
-    display: block;
-    height: 100%;
-    width: 100%;
-    position: absolute;
+    transition: background .2s ease-out;
+    float: right;   
     top: -5px;
-    transition: all .2s ease-out;
+    
 }
-
-.menu-btn {
+.navigation-button {
     display: none;
 }
 
-.menu-btn:checked~.nav-menu-list {
-    max-height: 240px;
+.navigation-button:checked~.nav-menu-list {
+    max-height: 300px;
 }
 
+/*HOME PAGE*/
+/*Section 1 of home page*/
+/*main div of section 1 of home page*/
 .home-1-main-div-1 {
     display: grid;
     grid-template-columns: auto;
 }
 
-.menu-btn:checked~.menu-icon .nav-icon-head {
-    background-color: transparent;
-}
-
-.menu-btn:checked~.menu-icon .nav-icon-head::before {
-    transform: rotate(-45deg);
-    top: 0;
-}
-
-.menu-btn:checked~.menu-icon .nav-icon-head::after {
-    transform: rotate(+45deg);
-    top: 0;
-}
-
-
-/*HOME PAGE*/
-/*div-1 section 1 home page*/
+/*child div-1 section 1 home page*/
 .home-1-div-1 {
     background-color: #fdfed7;
     padding: 80px 15px 15px 15px;
@@ -131,7 +125,7 @@ ul {
     border-radius: 30px;
 }
 
-/*div-2 section 1 home page*/
+/*child div-2 section 1 home page*/
 .home-1-div-2 {
     background-color: #fdfed7;
     padding: 10px 50px 10px 50px;
@@ -148,18 +142,19 @@ ul {
     color: #605e32;
 }
 
-/*Home page section 2 for smaller screen*/
+/*Home page section 2*/
 .home-section-2 {
     background-color: #edf1b0;
     color: #605e32;
 }
 
+/*Main div of section 2 of home page*/
 .home-2-main-div-2 {
     display: grid;
     grid-template-columns: auto;
 }
 
-/*div-1 section 2 home page*/
+/* child div-1 section 2 home page*/
 .home-2-div-1 {
     padding: 10px
 }
@@ -172,6 +167,7 @@ ul {
     margin-right: auto;
 }
 
+/*child div-2 0f section 2 home page*/
 .heading-2-home-page {
     text-align: center;
     text-shadow: #3a391e;
@@ -216,7 +212,6 @@ ul {
 }
 
 /*First child div of portfolio section 1*/
-
 .div-1-portfolio-2 {
     display: grid;
     grid-template-columns: auto;
@@ -248,6 +243,7 @@ ul {
 
 
 /*Second Child of portfolio section 1*/
+/*Innerchild of second child div of portfolio section 1*/
 .div-1-portfolio-1 {
     background-color: #e8ffc1;
     padding: 20px;
@@ -266,9 +262,23 @@ ul {
     font-size: large;
     text-align: left;
     font-family: serif;
+    color: #605e32;
 }
 
 /*Section 2 of portfolio section*/
+.portfolio-section-2 {
+    background-color: #a7b99e;
+    padding: 30px 0px;
+}
+
+.portfolio-heading-2 {
+    font-size: x-large;
+    text-align: center;
+    background-color: #a7b99e;
+    margin: 0;
+    padding: 10px 0px;
+}
+
 /*Main Div*/
 .portfolio-2-main-2 {
     display: grid;
@@ -279,10 +289,12 @@ ul {
 /*First Child Div of portfolio section 2*/
 .portfolio-2-div-1 {
     background-color: #a7b99e;
+    display: grid;
+    grid-template-columns: auto;
 }
 
 .gallary-image-1 {
-    width: 300px;
+    width: 250px;
     height: auto;
     display: block;
     margin: 0px auto 20px auto;
@@ -295,9 +307,11 @@ ul {
     background-color: #a7b99e;
 }
 
+
+
 /*First Inner-child div of Second child Div of portfolio section 2*/
 .gallary-image-2 {
-    width: 300px;
+    width: 250px;
     height: auto;
     display: block;
     margin: 0px auto 20px auto;
@@ -305,7 +319,7 @@ ul {
 
 /*Second Inner-child div of Second child Div of portfolio section 2*/
 .gallary-image-3 {
-    width: 300px;
+    width: 250px;
     height: auto;
     display: block;
     margin: 0px auto 20px auto;
@@ -314,10 +328,12 @@ ul {
 /*Third Child Div of portfolio section 2*/
 .portfolio-2-div-3 {
     background-color: #a7b99e;
+    display: grid;
+    grid-template-columns: auto;
 }
 
 .gallary-image-4 {
-    width: 300px;
+    width: 250px;
     height: auto;
     display: block;
     margin: 0px auto 0px auto;
@@ -356,10 +372,6 @@ ul {
         color: #3a391e
     }
 
-    .menu-icon {
-        display: none;
-    }
-
     .nav-list {
         padding: 12px;
         text-justify: distribute;
@@ -372,6 +384,11 @@ ul {
         border-radius: 45px;
     }
 
+    /*hamburger icon*/
+    .hamburger-icon {
+        display:none;
+    }
+    
     /*HOME PAGE*/
     /*CSS of section 1 of home page for laptop Screen*/
     .home-1-main-div-1 {
@@ -463,15 +480,150 @@ ul {
 
     /*PORTFOLIO PAGE*/
     /*Section 1 of portfolio page*/
-    .portfolio-section-1 {}
 
-    .div-1-portfolio-1 {
+    /*Main Div of Section 1 of portfolio page*/
+    .portfolio-1-main-div-1 {
         display: grid;
         grid-template-columns: auto auto;
-        float: left;
     }
 
-    .portfolio-image-extra {
+    /*First Div Child of Section 1 of portfolio page*/
+    /*First inner child of first div child of Section 1 of portfolio page*/
+    .portfolio-image-1 {
+        width: 350px;
+        height: auto;
+    }
+
+    /*Second Div Child of Section 1 of portfolio page*/
+    .div-1-portfolio-1 {
+        margin: 100px;
+    }
+
+    /*Inner child of first div child of Section 1 of portfolio page*/
+    .div-1-portfolio-1-child-1 {
+        padding: 40px 20px;
+    }
+
+    .portfolio-about-me-para {
+        font-size: larger;
+        font-family: serif;
+        float: right;
+        color: #4a4822;
+    }
+
+    /*Second Section of portfolio page*/
+    .portfolio-section-2 {
+        background-color: #a7b99e;
+        padding: 50px 0px;
+    }
+
+    .portfolio-heading-2 {
+        margin-top: 0;
+        font-size: xx-large;
+        padding-top: 20px;
+    }
+
+    /*Main Div of Second Section of portfolio page*/
+    .portfolio-2-main-2 {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+    /*First Child Main Div of Second Section of portfolio page*/
+    .gallary-image-1 {
+        margin: 0px 0px 0px auto;
+        width: 300px;
+        height: auto;
+        border-radius: 50px;
+    }
+
+    /*Second Child Main Div of Second Section of portfolio page*/
+    /*First Inner-child of Second Child Main Div of Second Section of portfolio page*/
+    .gallary-image-2 {
+        width: 300px;
+        height: auto;
         display: block;
+        margin: 0px auto;
+        border-radius: 50px;
+
+    }
+
+    /*Second Inner-child of Second Child Main Div of Second Section of portfolio page*/
+    .gallary-image-3 {
+        width: 300px;
+        height: auto;
+        display: block;
+        margin: 0px auto;
+        border-radius: 50px;
+    }
+
+    /*Third Child Main Div of Second Section of portfolio page*/
+    .gallary-image-4 {
+        width: 350px;
+        height: auto;
+        display: block;
+        margin: 0px auto 0px 0px;
+        justify-content: right;
+        border-radius: 60px;
+    }
+}
+
+/* Gallary Of main div of second section of portfolio page in smaller laptop screen*/
+@media(width>=1300px) {
+
+    /*Second Section of portfolio page*/
+    .portfolio-section-2 {
+        background-color: #a7b99e;
+        padding: 50px 0px;
+    }
+
+    .portfolio-heading-2 {
+        margin-top: 0;
+        font-size: xx-large;
+        padding-top: 20px;
+    }
+
+    /*Main Div of Second Section of portfolio page*/
+    .portfolio-2-main-2 {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+    /*First Child Main Div of Second Section of portfolio page*/
+    .gallary-image-1 {
+        margin: 0px 0px 0px auto;
+        width: 450px;
+        height: auto;
+        border-radius: 50px;
+    }
+
+    /*Second Child Main Div of Second Section of portfolio page*/
+    /*First Inner-child of Second Child Main Div of Second Section of portfolio page*/
+    .gallary-image-2 {
+        width: 450px;
+        height: auto;
+        display: block;
+        margin: 0px auto;
+        border-radius: 50px;
+
+    }
+
+    /*Second Inner-child of Second Child Main Div of Second Section of portfolio page*/
+    .gallary-image-3 {
+        width: 450px;
+        height: auto;
+        display: block;
+        margin: 0px auto;
+        border-radius: 50px;
+    }
+
+    /*Third Child Main Div of Second Section of portfolio page*/
+    .gallary-image-4 {
+        width: 500px;
+        height: auto;
+        display: block;
+        margin: 0px auto 0px 0px;
+        justify-content: right;
+        border-radius: 60px;
     }
 }
