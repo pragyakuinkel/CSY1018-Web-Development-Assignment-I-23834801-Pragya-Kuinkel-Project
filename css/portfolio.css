@@ -1,0 +1,629 @@
+/*CSS for body*/
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+/*CSS for mobile screen*/
+
+/*HEADER/NAVIGATION BAR*/
+/*CSS for navigation Bar*/
+.navigation-bar {
+    background-color: #94bda2;
+    position: fixed;
+    width: 100%;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    overflow: hidden;
+    padding: 0 10px;
+    margin: 5px;
+}
+
+.name {
+    text-align: center;
+    display: block;
+    font-size: 30px;
+    margin: 3px 0 0 auto;
+    color: #000;
+}
+
+.nav-menu-list a {
+    text-decoration: none;
+    color: #000;
+    display: block;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.active {
+    background-color: #aae1bd;
+    border-radius: 20px;
+}
+
+/*CSS for Hamburger Icon that is shown in smaller screen.*/
+.nav-menu-list {
+    clear: both;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+}
+
+.hamburger-icon {
+    padding: 10px 40px;
+    float: right;
+}
+
+.nav-icon{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-row-gap:0px;
+}
+
+/* hamburger Icon*/
+.nav-icon-head {
+    background-color: #000;
+    height: 4px;
+    width: 20px;
+    content: "";
+    transition: background .2s ease-out;
+    float: right;  
+    margin: 5px 0px;
+}
+
+.nav-icon-head-1 {
+    background-color: #000;
+    height: 4px;
+    width: 20px;
+    content: "";
+    transition: background .2s ease-out;
+    float: right;   
+    top: 5px;
+    margin: 5px 0px;
+}
+
+.nav-icon-head-2 {
+    background-color: #000;
+    height: 4px;
+    width: 20px;
+    content: "";
+    transition: background .2s ease-out;
+    float: right;   
+    top: -5px;
+    
+}
+.navigation-button {
+    display: none;
+}
+
+.navigation-button:checked~.nav-menu-list {
+    max-height: 300px;
+}
+
+/*HOME PAGE*/
+/*Section 1 of home page*/
+/*main div of section 1 of home page*/
+.home-1-main-div-1 {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+/*child div-1 section 1 home page*/
+.home-1-div-1 {
+    background-color: #fdfed7;
+    padding: 80px 15px 15px 15px;
+}
+
+.home-page-image-1 {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+}
+
+/*child div-2 section 1 home page*/
+.home-1-div-2 {
+    background-color: #fdfed7;
+    padding: 10px 50px 10px 50px;
+}
+
+.para-tag-1 {
+    color: #605e32;
+    text-align: center;
+}
+
+.para-name-tag-1 {
+    text-align: right;
+    font-style: italic;
+    color: #605e32;
+}
+
+/*Home page section 2*/
+.home-section-2 {
+    background-color: #edf1b0;
+    color: #605e32;
+}
+
+/*Main div of section 2 of home page*/
+.home-2-main-div-2 {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+/* child div-1 section 2 home page*/
+.home-2-div-1 {
+    padding: 10px
+}
+
+.home-page-image-2 {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*child div-2 0f section 2 home page*/
+.heading-2-home-page {
+    text-align: center;
+    text-shadow: #3a391e;
+    margin: 0px;
+}
+
+.para-tag-1 a {
+    color: #605e32;
+    font-style: italic;
+    font-size: large;
+}
+
+/*FOOTER*/
+.footer-main-div {
+    background-color: #94bda2;
+    display: grid;
+    grid-template-columns: auto;
+    padding: 30px;
+}
+
+.footer-image {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.heading-footer {
+    text-align: center;
+    text-shadow: #3a391e;
+    margin: 0px;
+    font-size: medium;
+}
+
+/*PORTFOLIO/ABOUT ME*/
+/*Section 1 of About me page*/
+/*Main Div*/
+.portfolio-1-main-div-1 {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+/*First child div of portfolio section 1*/
+.div-1-portfolio-2 {
+    display: grid;
+    grid-template-columns: auto;
+    background-color: #b7d7ce;
+    padding: 80px 30px 30px 30px;
+}
+
+/*First inner child of section 1 div 1 of portfolio*/
+.portfolio-image-1 {
+    width: 300px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 30px;
+}
+
+/*Second inner child of section 1 div 1 of portfolio*/
+.about-me-list {
+    font-size: larger;
+    font-weight: bold;
+    color: #484725;
+    border: 2px solid #605e32;
+    border-radius: 30px;
+    text-align: left;
+    margin: 25px 25px 25px 15px;
+    padding: 10px;
+}
+
+
+/*Second Child of portfolio section 1*/
+/*Innerchild of second child div of portfolio section 1*/
+.div-1-portfolio-1 {
+    background-color: #e8ffc1;
+    padding: 20px;
+    border: 2px solid #605e32;
+    border-radius: 30px;
+    margin: 30px;
+}
+
+.portfolio-heading-1 {
+    font-size: x-large;
+    color: #605e32;
+    text-align: center;
+}
+
+.portfolio-about-me-para {
+    font-size: large;
+    text-align: left;
+    font-family: serif;
+    color: #605e32;
+}
+
+/*Section 2 of portfolio section*/
+.portfolio-section-2 {
+    background-color: #a7b99e;
+    padding: 30px 0px;
+}
+
+.portfolio-heading-2 {
+    font-size: x-large;
+    text-align: center;
+    background-color: #a7b99e;
+    margin: 0;
+    padding: 10px 0px;
+}
+
+/*Main Div*/
+.portfolio-2-main-2 {
+    display: grid;
+    grid-template-columns: auto;
+    background-color: #a7b99e;
+}
+
+/*First Child Div of portfolio section 2*/
+.portfolio-2-div-1 {
+    background-color: #a7b99e;
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.gallary-image-1 {
+    width: 250px;
+    height: auto;
+    display: block;
+    margin: 0px auto 20px auto;
+}
+
+/*Second child Div of portfolio section 2*/
+.portfolio-2-div-2 {
+    display: grid;
+    grid-template-columns: auto;
+    background-color: #a7b99e;
+}
+
+
+
+/*First Inner-child div of Second child Div of portfolio section 2*/
+.gallary-image-2 {
+    width: 250px;
+    height: auto;
+    display: block;
+    margin: 0px auto 20px auto;
+}
+
+/*Second Inner-child div of Second child Div of portfolio section 2*/
+.gallary-image-3 {
+    width: 250px;
+    height: auto;
+    display: block;
+    margin: 0px auto 20px auto;
+}
+
+/*Third Child Div of portfolio section 2*/
+.portfolio-2-div-3 {
+    background-color: #a7b99e;
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.gallary-image-4 {
+    width: 250px;
+    height: auto;
+    display: block;
+    margin: 0px auto 0px auto;
+    padding-bottom: 30px;
+}
+
+/*CSS for laptop Screen*/
+@media (width >=900px) {
+
+    /*HEADER/NAVIGATION BAR*/
+    /*CSS for navigation bar in Laptop screen*/
+    .navigation-bar {
+        display: flex;
+        background-color: transparent;
+    }
+
+    .name {
+        text-align: right;
+        padding: 20px 50px;
+        font-size: large;
+        margin-left: auto;
+
+    }
+
+    .nav-menu-list {
+        clear: none;
+        overflow: visible;
+        max-height: none;
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-menu-list a {
+        color: #3a391e
+    }
+
+    .nav-list {
+        padding: 12px;
+        text-justify: distribute;
+        font-size: larger;
+        color: #3a391e;
+    }
+
+    .active {
+        background-color: #aae1bd;
+        border-radius: 45px;
+    }
+
+    /*hamburger icon*/
+    .hamburger-icon {
+        display:none;
+    }
+    
+    /*HOME PAGE*/
+    /*CSS of section 1 of home page for laptop Screen*/
+    .home-1-main-div-1 {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    /*CSS of first div of main div section 1*/
+    .home-1-div-1 {
+        background-color: #e0ffcd;
+        float: right;
+        padding: 100px;
+    }
+
+    .home-page-image-1 {
+        width: 500px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        border-radius: 35px;
+    }
+
+    /*CSS of second div of main div section 1*/
+    .home-1-div-2 {
+        color: #f0ece2;
+        padding: 300px 50px 200px 50px;
+        float: left;
+    }
+
+    .para-tag-1 {
+        text-align: left;
+        font-size: x-large;
+
+    }
+
+    /*CSS of section 2 of home page*/
+    .home-2-main-div-2 {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .home-2-div-1 {
+        float: right;
+        padding: 50px;
+    }
+
+    .home-page-image-2 {
+        width: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+    }
+
+    .home-2-div-2 {
+        float: left;
+        padding: 100px 150px;
+    }
+
+    .heading-2-home-page {
+        text-align: center;
+        font-size: xx-large;
+    }
+
+    .home-2-div-2 .para-tag-1 {
+        border: 2px solid #3a391e;
+        border-radius: 45px;
+        text-align: center;
+        padding: 10px;
+    }
+
+    /*FOOTER*/
+    .footer-main-div {
+        padding: 100px 80px 20px 80px;
+    }
+
+    .heading-footer {
+        font-size: x-large;
+    }
+
+    .footer-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 150px;
+        height: auto
+    }
+
+    /*PORTFOLIO PAGE*/
+    /*Section 1 of portfolio page*/
+
+    /*Main Div of Section 1 of portfolio page*/
+    .portfolio-1-main-div-1 {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    /*First Div Child of Section 1 of portfolio page*/
+    /*First inner child of first div child of Section 1 of portfolio page*/
+    .portfolio-image-1 {
+        width: 350px;
+        height: auto;
+    }
+
+    /*Second Div Child of Section 1 of portfolio page*/
+    .div-1-portfolio-1 {
+        margin: 100px;
+    }
+
+    /*Inner child of first div child of Section 1 of portfolio page*/
+    .div-1-portfolio-1-child-1 {
+        padding: 40px 20px;
+    }
+
+    .portfolio-about-me-para {
+        font-size: larger;
+        font-family: serif;
+        float: right;
+        color: #4a4822;
+    }
+
+    /*Second Section of portfolio page*/
+    .portfolio-section-2 {
+        background-color: #a7b99e;
+        padding: 50px 0px;
+    }
+
+    .portfolio-heading-2 {
+        margin-top: 0;
+        font-size: xx-large;
+        padding-top: 20px;
+    }
+
+    /*Main Div of Second Section of portfolio page*/
+    .portfolio-2-main-2 {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+    /*First Child Main Div of Second Section of portfolio page*/
+    .gallary-image-1 {
+        margin: 0px 0px 0px auto;
+        width: 300px;
+        height: auto;
+        border-radius: 50px;
+    }
+
+    /*Second Child Main Div of Second Section of portfolio page*/
+    /*First Inner-child of Second Child Main Div of Second Section of portfolio page*/
+    .gallary-image-2 {
+        width: 300px;
+        height: auto;
+        display: block;
+        margin: 0px auto;
+        border-radius: 50px;
+
+    }
+
+    /*Second Inner-child of Second Child Main Div of Second Section of portfolio page*/
+    .gallary-image-3 {
+        width: 300px;
+        height: auto;
+        display: block;
+        margin: 0px auto;
+        border-radius: 50px;
+    }
+
+    /*Third Child Main Div of Second Section of portfolio page*/
+    .gallary-image-4 {
+        width: 350px;
+        height: auto;
+        display: block;
+        margin: 0px auto 0px 0px;
+        justify-content: right;
+        border-radius: 60px;
+    }
+}
+
+/* Gallary Of main div of second section of portfolio page in smaller laptop screen*/
+@media(width>=1300px) {
+
+    /*Second Section of portfolio page*/
+    .portfolio-section-2 {
+        background-color: #a7b99e;
+        padding: 50px 0px;
+    }
+
+    .portfolio-heading-2 {
+        margin-top: 0;
+        font-size: xx-large;
+        padding-top: 20px;
+    }
+
+    /*Main Div of Second Section of portfolio page*/
+    .portfolio-2-main-2 {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+    /*First Child Main Div of Second Section of portfolio page*/
+    .gallary-image-1 {
+        margin: 0px 0px 0px auto;
+        width: 450px;
+        height: auto;
+        border-radius: 50px;
+    }
+
+    /*Second Child Main Div of Second Section of portfolio page*/
+    /*First Inner-child of Second Child Main Div of Second Section of portfolio page*/
+    .gallary-image-2 {
+        width: 450px;
+        height: auto;
+        display: block;
+        margin: 0px auto;
+        border-radius: 50px;
+
+    }
+
+    /*Second Inner-child of Second Child Main Div of Second Section of portfolio page*/
+    .gallary-image-3 {
+        width: 450px;
+        height: auto;
+        display: block;
+        margin: 0px auto;
+        border-radius: 50px;
+    }
+
+    /*Third Child Main Div of Second Section of portfolio page*/
+    .gallary-image-4 {
+        width: 500px;
+        height: auto;
+        display: block;
+        margin: 0px auto 0px 0px;
+        justify-content: right;
+        border-radius: 60px;
+    }
+}
