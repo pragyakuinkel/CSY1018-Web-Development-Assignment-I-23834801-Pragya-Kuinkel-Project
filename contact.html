@@ -8,6 +8,9 @@
         <title>Portfolio</title>
         <!--Link of external CSS-->
         <link rel=" stylesheet" href="css/portfolio.css">
+        <style>
+  
+        </style>
     </head>
     <body>
         <header>
@@ -36,7 +39,51 @@
         <main>
             <!--First Section-->
             <section class="contact-section-1">
-                
+                <div class="contact-div-main-1"> 
+                    <div class="contact-main-1">
+                        <img class="contact-image" src="image/contact-image.jpg">
+                    </div>
+                    <div class="contact-main-2">
+                        <div class="contact-1-div-1">
+                            <h3 class="contact-me-heading"> Want to contact me?</h3>
+                            <p class="to-contact-me-1">
+                                Contact me through the information 
+                                or fill the form given.
+                            </p>
+                            <ul class="contact-unordered-list">
+                                <li class="contact-list">Mail-pragyakuinkel9@gmail.com</li>
+                                <li class="contact-list">Phone number-9841469902</li>
+                                <li class="contact-list">Instagram-@pragyakuinkel9_</li>
+                                <li class="contact-list">Facebook-@pragyakuinkel1_</li>
+                            </ul>
+                        </div>
+                        <div class="contact-form-message">
+                            <h3 class="contact-me-heading">Form</h2>
+                            <form class="contact-me-form"><!-- This is where the program begins-->
+                                <label for="firstname">First Name</label>
+                                <input type="text" name="firstname"/></br>
+                                <label for="lastname">Last Name</label>
+                                <input type="text" name="lastname"/></br>
+                                <label for="email">Email</label>
+                                <input type="text" name="email"/></br>
+                                <label for="phonenumber">Phone number</label>
+                                <input type="number" name="phonenumber"></br>
+                                <label for="gender">Gender</label>
+                                <input type="radio" name="gender" value="male">
+                                Male</input>
+                                <input type="radio" name="gender" value="female">
+                                Female</input>
+                                <input type="radio" name="gender" value="other">
+                                Other</input></br>
+                                <label for="dateofbirth">Date Of Birth</label>
+                                <input type="date" name="dateofbirth"/> </br>
+                                <label for="freeform">Write a message...</label></br>
+                                <textarea id="freeform" name="freeform" rows="10" cols="40"></textarea></br>
+                                <button type="submit" name="submit">Submit</button>
+                            </form>
+                        </div>
+                   </div>
+                </div>
             </section>
         </main>
         <!--Footer-->

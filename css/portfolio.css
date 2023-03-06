@@ -52,14 +52,15 @@ ul {
 }
 
 .hamburger-icon {
-    padding: 10px 40px;
+    padding: 10px 20px;
+    margin-right: auto;
     float: right;
 }
 
-.nav-icon{
+.nav-icon {
     display: grid;
     grid-template-rows: auto auto auto;
-    grid-row-gap:0px;
+    grid-row-gap: 0px;
 }
 
 /* hamburger Icon*/
@@ -69,7 +70,7 @@ ul {
     width: 20px;
     content: "";
     transition: background .2s ease-out;
-    float: right;  
+    float: right;
     margin: 5px 0px;
 }
 
@@ -79,7 +80,7 @@ ul {
     width: 20px;
     content: "";
     transition: background .2s ease-out;
-    float: right;   
+    float: right;
     top: 5px;
     margin: 5px 0px;
 }
@@ -90,10 +91,11 @@ ul {
     width: 20px;
     content: "";
     transition: background .2s ease-out;
-    float: right;   
+    float: right;
     top: -5px;
-    
+
 }
+
 .navigation-button {
     display: none;
 }
@@ -103,7 +105,7 @@ ul {
 }
 
 /*HOME PAGE*/
-/*Section 1 of home page*/
+/*Section 1 of home page*
 /*main div of section 1 of home page*/
 .home-1-main-div-1 {
     display: grid;
@@ -113,16 +115,17 @@ ul {
 /*child div-1 section 1 home page*/
 .home-1-div-1 {
     background-color: #fdfed7;
-    padding: 80px 15px 15px 15px;
+    padding: 70px 15px 15px 15px;
 }
 
 .home-page-image-1 {
-    width: 300px;
+    width: 100%;
     height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 30px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
 }
 
 /*child div-2 section 1 home page*/
@@ -134,6 +137,7 @@ ul {
 .para-tag-1 {
     color: #605e32;
     text-align: center;
+    font-family: serif;
 }
 
 .para-name-tag-1 {
@@ -156,7 +160,7 @@ ul {
 
 /* child div-1 section 2 home page*/
 .home-2-div-1 {
-    padding: 10px
+    padding: 10px;
 }
 
 .home-page-image-2 {
@@ -221,7 +225,7 @@ ul {
 
 /*First inner child of section 1 div 1 of portfolio*/
 .portfolio-image-1 {
-    width: 300px;
+    width: 100%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
@@ -294,7 +298,7 @@ ul {
 }
 
 .gallary-image-1 {
-    width: 250px;
+    width: 80%;
     height: auto;
     display: block;
     margin: 0px auto 20px auto;
@@ -311,7 +315,7 @@ ul {
 
 /*First Inner-child div of Second child Div of portfolio section 2*/
 .gallary-image-2 {
-    width: 250px;
+    width: 80%;
     height: auto;
     display: block;
     margin: 0px auto 20px auto;
@@ -319,7 +323,7 @@ ul {
 
 /*Second Inner-child div of Second child Div of portfolio section 2*/
 .gallary-image-3 {
-    width: 250px;
+    width: 80%;
     height: auto;
     display: block;
     margin: 0px auto 20px auto;
@@ -333,15 +337,84 @@ ul {
 }
 
 .gallary-image-4 {
-    width: 250px;
+    width: 80%;
     height: auto;
     display: block;
     margin: 0px auto 0px auto;
     padding-bottom: 30px;
 }
 
+/*CONTACT PAGE*/
+/*Section 1 of contact page*/
+/*Main Div of section 1 of contact page*/
+.contact-div-main-1 {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+/*first child of div of Main Div of section 1 of contact page*/
+.contact-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/*Second child of Main Div of section 1 of contact page*/
+.contact-main-2 {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 10px;
+    background-color: #CCCDBB;
+}
+
+/*first child of inner-Child div of Main Div of section 1 of contact page*/
+.contact-1-div-1 {
+    padding: 10px 5px;
+    color: #605e32;
+}
+
+.contact-me-heading {
+    margin: 0;
+    font-size: x-large;
+}
+
+.contact-1-div-1 .contact-me-heading {
+    font-family: Copperplate, Papyrus, fantasy;
+}
+
+.to-contact-me-1 {
+    text-align: left;
+    font-size: large;
+    margin: 0;
+}
+
+.contact-unordered-list {
+    text-align: left;
+    margin: 0;
+    border: 2px solid #605e32;
+    border-radius: 10px;
+    padding: 5px;
+    font-family: serif;
+    font-size: larger
+}
+
+/*second child of inner-Child div of Main Div of section 1 of contact page*/
+.contact-form-message {
+    padding: 10px 0px 10px 0px;
+    border: 3px solid #605e32;
+}
+
+.contact-form-message .contact-me-heading {
+    text-align: center;
+}
+
+.contact-me-form {
+    margin: 5px;
+    text-align: center;
+}
+
 /*CSS for laptop Screen*/
-@media (width >=900px) {
+@media (width >=700px) {
 
     /*HEADER/NAVIGATION BAR*/
     /*CSS for navigation bar in Laptop screen*/
@@ -386,9 +459,9 @@ ul {
 
     /*hamburger icon*/
     .hamburger-icon {
-        display:none;
+        display: none;
     }
-    
+
     /*HOME PAGE*/
     /*CSS of section 1 of home page for laptop Screen*/
     .home-1-main-div-1 {
@@ -400,16 +473,17 @@ ul {
     .home-1-div-1 {
         background-color: #e0ffcd;
         float: right;
-        padding: 100px;
+        padding: 90px;
     }
 
     .home-page-image-1 {
-        width: 500px;
+        width: 100%;
+        height: auto;
         display: block;
         margin-left: auto;
         margin-right: auto;
-        height: auto;
-        border-radius: 35px;
+        border-top-right-radius: 80px;
+        border-top-left-radius: 80px;
     }
 
     /*CSS of second div of main div section 1*/
@@ -437,7 +511,7 @@ ul {
     }
 
     .home-page-image-2 {
-        width: 300px;
+        width: 100%;
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -490,7 +564,7 @@ ul {
     /*First Div Child of Section 1 of portfolio page*/
     /*First inner child of first div child of Section 1 of portfolio page*/
     .portfolio-image-1 {
-        width: 350px;
+        width: 100%;
         height: auto;
     }
 
@@ -532,7 +606,7 @@ ul {
     /*First Child Main Div of Second Section of portfolio page*/
     .gallary-image-1 {
         margin: 0px 0px 0px auto;
-        width: 300px;
+        width: 80%;
         height: auto;
         border-radius: 50px;
     }
@@ -540,90 +614,99 @@ ul {
     /*Second Child Main Div of Second Section of portfolio page*/
     /*First Inner-child of Second Child Main Div of Second Section of portfolio page*/
     .gallary-image-2 {
-        width: 300px;
+        width: 80%;
         height: auto;
         display: block;
-        margin: 0px auto;
+        margin: 20px auto;
         border-radius: 50px;
 
     }
 
     /*Second Inner-child of Second Child Main Div of Second Section of portfolio page*/
     .gallary-image-3 {
-        width: 300px;
+        width: 80%;
         height: auto;
         display: block;
-        margin: 0px auto;
+        margin: 10px auto;
         border-radius: 50px;
     }
 
     /*Third Child Main Div of Second Section of portfolio page*/
     .gallary-image-4 {
-        width: 350px;
+        width: 80%;
         height: auto;
         display: block;
         margin: 0px auto 0px 0px;
         justify-content: right;
         border-radius: 60px;
     }
-}
 
-/* Gallary Of main div of second section of portfolio page in smaller laptop screen*/
-@media(width>=1300px) {
-
-    /*Second Section of portfolio page*/
-    .portfolio-section-2 {
-        background-color: #a7b99e;
-        padding: 50px 0px;
-    }
-
-    .portfolio-heading-2 {
-        margin-top: 0;
-        font-size: xx-large;
-        padding-top: 20px;
-    }
-
-    /*Main Div of Second Section of portfolio page*/
-    .portfolio-2-main-2 {
+    /*CONTACT PAGE*/
+    /*Section 1 of contact page*/
+   /*Main Div of section 1 of contact page*/
+    .contact-div-main-1 {
         display: grid;
-        grid-template-columns: auto auto auto;
+        grid-template-columns: auto;
     }
 
-    /*First Child Main Div of Second Section of portfolio page*/
-    .gallary-image-1 {
-        margin: 0px 0px 0px auto;
-        width: 450px;
-        height: auto;
-        border-radius: 50px;
-    }
-
-    /*Second Child Main Div of Second Section of portfolio page*/
-    /*First Inner-child of Second Child Main Div of Second Section of portfolio page*/
-    .gallary-image-2 {
-        width: 450px;
+    /*first child of div of Main Div of section 1 of contact page*/
+    .contact-image {
+        width: 100%;
         height: auto;
         display: block;
-        margin: 0px auto;
-        border-radius: 50px;
-
+        margin: 0px;
     }
 
-    /*Second Inner-child of Second Child Main Div of Second Section of portfolio page*/
-    .gallary-image-3 {
-        width: 450px;
-        height: auto;
-        display: block;
-        margin: 0px auto;
-        border-radius: 50px;
+    /*Second child of Main Div of section 1 of contact page*/
+    .contact-main-2 {
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 30px;
+        background-color: #CCCDBB;
     }
 
-    /*Third Child Main Div of Second Section of portfolio page*/
-    .gallary-image-4 {
-        width: 500px;
-        height: auto;
-        display: block;
-        margin: 0px auto 0px 0px;
-        justify-content: right;
-        border-radius: 60px;
+    /*first child of inner-Child div of Main Div of section 1 of contact page*/
+    .contact-1-div-1 {
+        color: #605e32;
+        margin: 0 auto 0 auto;
+        justify-content: center;
+    }
+
+    .contact-me-heading {
+        font-size: xx-large;
+    }
+
+    .contact-1-div-1 .contact-me-heading {
+        font-family: Copperplate, Papyrus, fantasy;
+    }
+
+    .to-contact-me-1 {
+        text-align: left;
+        font-size: xx-large;
+        margin-top: 30px;
+    }
+
+    .contact-unordered-list {
+        text-align: left;
+        margin-top: 30px;
+        font-family: serif;
+        font-size: x-large;
+    }
+
+    /*second child of inner-Child div of Main Div of section 1 of contact page*/
+    .contact-form-message {
+        padding: 30px;
+        margin: 0px 10px 0px 40px;
+        border: 3px solid #605e32;
+    }
+
+    .contact-form-message .contact-me-heading {
+        text-align: center;
+    }
+
+    .contact-me-form {
+        margin: 50px;
+        text-align: center;
+        font-size: larger;
     }
 }
