@@ -413,6 +413,46 @@ ul {
     text-align: center;
 }
 
+/*Section 1 of site report page*/
+.section-report-1 {
+    background-color: #f6f6e3;
+    padding: 50px 10px;
+}
+
+/*Date CSS*/
+.date-report {
+    font-style: italic;
+    font-size: large;
+}
+
+/*Paragraph CSS*/
+.report-paragraph {
+    font-family: serif;
+    font-size: larger;
+}
+
+.div-wireframe-main-1 {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.div-wireframe-1-main-1 {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.wireframe-1-div-1 {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.image-wireframe {
+    width: 90%;
+    height: auto;
+    margin: 10px;
+    justify-content: center;
+}
+
 /*CSS for laptop Screen*/
 @media (width >=700px) {
 
@@ -643,7 +683,7 @@ ul {
 
     /*CONTACT PAGE*/
     /*Section 1 of contact page*/
-   /*Main Div of section 1 of contact page*/
+    /*Main Div of section 1 of contact page*/
     .contact-div-main-1 {
         display: grid;
         grid-template-columns: auto;
@@ -708,5 +748,48 @@ ul {
         margin: 50px;
         text-align: center;
         font-size: larger;
+    }
+
+    /*Section 1 of site report page*/
+    .section-report-1 {
+        background-color:  #f6f6e3;
+        padding: 100px;
+    }
+
+    /*Date CSS of Site report*/
+    .date-report {
+        font-style: italic;
+        font-family: serif;
+    }
+
+    /*Paragraph CSS of site report*/
+    .report-paragraph {
+        font-family: serif;
+        font-size: larger;
+    }
+
+    /*Main div of section 1 of site report*/
+    .div-wireframe-main-1 {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    /*Child div Main div of section 1 of site report*/
+    .div-wireframe-1-main-1 {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    /*Inner-Child of Child div Main div of section 1 of site report*/
+    .wireframe-1-div-1 {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .image-wireframe {
+        width: 80%;
+        height: auto;
+        margin: 10px;
+        justify-content: center;
     }
 }
