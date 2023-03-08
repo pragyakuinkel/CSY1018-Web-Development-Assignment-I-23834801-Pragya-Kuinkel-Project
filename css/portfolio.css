@@ -187,7 +187,7 @@ ul {
 /*FOOTER*/
 /*Main div of footer*/
 .footer-main-div {
-    padding: 30px;
+    padding: 10px;
     color: #3a391e;
     display: grid;
     grid-template-columns: auto;
@@ -424,6 +424,7 @@ ul {
 .contact-form-message {
     padding: 10px 0px 10px 0px;
     border: 3px solid #605e32;
+    font-size: small;
 }
 
 .contact-form-message .contact-me-heading {
@@ -597,6 +598,51 @@ ul {
         padding: 10px;
     }
 
+    /*FOOTER*/
+    /*Main div of footer*/
+    .footer-main-div {
+        padding: 50px;
+        color: #3a391e;
+        background-color: #94bda2;
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+    /*First chid div of main div of footer*/
+    .footer-div-1 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .heading-footer {
+        font-size: x-large;
+        text-align: left;
+    }
+
+    .footer-unorder-list {
+        text-align: left;
+    }
+
+    .footer-unorder-list a {
+        text-decoration: none;
+        color: #3a391e;
+    }
+
+    .footer-list {
+        font-size: x-large;
+    }
+
+    /*Second Child of main div of footer*/
+    .footer-div-2 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /*Third Child of main div of footer*/
+    .footer-div-3 {
+        margin-left: auto;
+        margin-right: auto;
+    }
 
     /*PORTFOLIO PAGE*/
     /*Section 1 of portfolio page*/
