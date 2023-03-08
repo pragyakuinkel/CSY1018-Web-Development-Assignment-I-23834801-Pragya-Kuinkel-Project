@@ -185,26 +185,48 @@ ul {
 }
 
 /*FOOTER*/
+/*Main div of footer*/
 .footer-main-div {
-    background-color: #94bda2;
+    padding: 30px;
+    color: #3a391e;
     display: grid;
     grid-template-columns: auto;
-    padding: 30px;
+    background-color: #94bda2;
 }
 
-.footer-image {
-    width: 100px;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+/*First chid div of main div of footer*/
+.footer-div-1 {
+    padding:5px;
 }
 
 .heading-footer {
-    text-align: center;
-    text-shadow: #3a391e;
-    margin: 0px;
-    font-size: medium;
+    font-size: larger;
+    text-align: left;
+    margin: 0;
+}
+
+.footer-unorder-list {
+    text-align: left;
+    padding: 0;
+}
+
+.footer-unorder-list a {
+    text-decoration: none;
+    color: #3a391e;
+}
+
+.footer-list {
+    font-size: larger;
+}
+
+/*Second Child of main div of footer*/
+.footer-div-2 {
+    padding:5px;
+}
+
+/*Third Child of main div of footer*/
+.footer-div-3 {
+    padding:5px;
 }
 
 /*PORTFOLIO/ABOUT ME*/
@@ -364,7 +386,7 @@ ul {
     display: grid;
     grid-template-columns: auto;
     padding: 10px;
-    background-color: #CCCDBB;
+    background-color: #e0ffcd;
 }
 
 /*first child of inner-Child div of Main Div of section 1 of contact page*/
@@ -575,26 +597,9 @@ ul {
         padding: 10px;
     }
 
-    /*FOOTER*/
-    .footer-main-div {
-        padding: 100px 80px 20px 80px;
-    }
-
-    .heading-footer {
-        font-size: x-large;
-    }
-
-    .footer-image {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 150px;
-        height: auto
-    }
 
     /*PORTFOLIO PAGE*/
     /*Section 1 of portfolio page*/
-
     /*Main Div of Section 1 of portfolio page*/
     .portfolio-1-main-div-1 {
         display: grid;
@@ -702,7 +707,7 @@ ul {
         display: grid;
         grid-template-columns: auto auto;
         padding: 30px;
-        background-color: #CCCDBB;
+        background-color: #e0ffcd;
     }
 
     /*first child of inner-Child div of Main Div of section 1 of contact page*/
@@ -752,7 +757,7 @@ ul {
 
     /*Section 1 of site report page*/
     .section-report-1 {
-        background-color:  #f6f6e3;
+        background-color: #f6f6e3;
         padding: 100px;
     }
 
