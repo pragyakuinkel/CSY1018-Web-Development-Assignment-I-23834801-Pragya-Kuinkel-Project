@@ -196,7 +196,7 @@ ul {
 
 /*First chid div of main div of footer*/
 .footer-div-1 {
-    padding:5px;
+    padding: 5px;
 }
 
 .heading-footer {
@@ -221,12 +221,12 @@ ul {
 
 /*Second Child of main div of footer*/
 .footer-div-2 {
-    padding:5px;
+    padding: 5px;
 }
 
 /*Third Child of main div of footer*/
 .footer-div-3 {
-    padding:5px;
+    padding: 5px;
 }
 
 /*PORTFOLIO/ABOUT ME*/
@@ -241,7 +241,7 @@ ul {
 .div-1-portfolio-2 {
     display: grid;
     grid-template-columns: auto;
-    background-color: #b7d7ce;
+    background-color: #d5f6ec;
     padding: 80px 30px 30px 30px;
 }
 
@@ -293,14 +293,13 @@ ul {
 
 /*Section 2 of portfolio section*/
 .portfolio-section-2 {
-    background-color: #a7b99e;
+    background-color: #ddfacf;
     padding: 30px 0px;
 }
 
 .portfolio-heading-2 {
     font-size: x-large;
     text-align: center;
-    background-color: #a7b99e;
     margin: 0;
     padding: 10px 0px;
 }
@@ -309,12 +308,11 @@ ul {
 .portfolio-2-main-2 {
     display: grid;
     grid-template-columns: auto;
-    background-color: #a7b99e;
+    background-color: #ddfacf;
 }
 
 /*First Child Div of portfolio section 2*/
 .portfolio-2-div-1 {
-    background-color: #a7b99e;
     display: grid;
     grid-template-columns: auto;
 }
@@ -330,7 +328,6 @@ ul {
 .portfolio-2-div-2 {
     display: grid;
     grid-template-columns: auto;
-    background-color: #a7b99e;
 }
 
 
@@ -353,7 +350,6 @@ ul {
 
 /*Third Child Div of portfolio section 2*/
 .portfolio-2-div-3 {
-    background-color: #a7b99e;
     display: grid;
     grid-template-columns: auto;
 }
@@ -386,7 +382,7 @@ ul {
     display: grid;
     grid-template-columns: auto;
     padding: 10px;
-    background-color: #e0ffcd;
+    background-color: #cedcc3;
 }
 
 /*first child of inner-Child div of Main Div of section 1 of contact page*/
@@ -475,6 +471,68 @@ ul {
     height: auto;
     margin: 10px;
     justify-content: center;
+}
+
+/*WORK EXPERIENCE*/
+.head-workexp{
+    text-align: center;
+    font-size: xx-large;
+    font-family: serif;
+}
+
+/*Section 1 of work experience*/
+.section-1-workexperience {
+    padding: 70px 40px 10px 40px;
+    background-color: #d1fcd9;
+}
+
+/*Main div of section 1 of work experience*/
+.div-workexp-main-1 {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+/*Child div of main div of section 1 of work experience*/
+.div-workexp-1 {
+    border: 2px solid #605e32;
+    border-top-right-radius: 32px;
+    border-bottom-left-radius: 32px;
+    justify-content: center;
+    margin: 10px;
+    padding: 5px;
+    background-color: #eef2fd;
+}
+
+/*Content*/
+.heading-workexp {
+    font-weight: bold;
+    font-size: x-large;
+    margin: 8px;
+    text-decoration: dotted;
+}
+
+.date-of-exp {
+    font-style: italic;
+    font-size: larger;
+    margin: 8px;
+}
+
+.workexperience-para {
+    margin: 8px;
+    font-size: larger;
+    font-family: serif;
+}
+
+.company {
+    font-size: larger;
+    font-weight: bold;
+    margin: 8px;
+}
+
+/*Main div of section 1 of work experience*/
+.section-2-workexperience {
+    padding: 10px 40px;
+    background-color: #d1fcd9;
 }
 
 /*CSS for laptop Screen*/
@@ -679,7 +737,7 @@ ul {
 
     /*Second Section of portfolio page*/
     .portfolio-section-2 {
-        background-color: #a7b99e;
+        background-color: #ddfacf;;
         padding: 50px 0px;
     }
 
@@ -754,7 +812,7 @@ ul {
         display: grid;
         grid-template-columns: auto auto;
         padding: 30px;
-        background-color: #e0ffcd;
+        background-color: #cedcc3;
     }
 
     /*first child of inner-Child div of Main Div of section 1 of contact page*/
@@ -845,4 +903,67 @@ ul {
         margin: 10px;
         justify-content: center;
     }
+
+    /*WORK EXPERIENCE*/
+    .head-workexp{
+       text-align: center;
+       font-size: xx-large;
+       font-weight: bolder;
+    }
+
+    /*Section 1 of work experience*/
+    .section-1-workexperience {
+        padding: 100px 80px 10px 80px;
+        background-color: #d1fcd9;
+    }
+
+    /*Main div of section 1 of work experience*/
+    .div-workexp-main-1 {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+    /*Child div of main div of section 1 of work experience*/
+    .div-workexp-1 {
+        border: 2px solid #605e32;
+        border-top-right-radius: 32px;
+        border-bottom-left-radius: 32px;
+        justify-content: center;
+        
+        padding: 5px;
+        background-color: #eef2fd;
+    }
+
+    /*Content*/
+    .heading-workexp {
+        font-weight: bold;
+        font-size: x-large;
+        margin: 8px;
+        text-decoration: dotted;
+    }
+
+    .date-of-exp {
+        font-style: italic;
+        font-size: larger;
+        margin: 8px;
+    }
+
+    .workexperience-para {
+        margin: 8px;
+        font-size: larger;
+        font-family: serif;
+    }
+
+    .company {
+        font-size: larger;
+        font-weight: bold;
+        margin: 8px;
+    }
+
+    /*Main div of section 1 of work experience*/
+    .section-2-workexperience {
+        padding: 10px 80px 70px 80px;
+        background-color: #d1fcd9;
+    }
+
 }
