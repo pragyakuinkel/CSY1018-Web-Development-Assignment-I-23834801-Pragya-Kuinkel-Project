@@ -368,14 +368,16 @@ ul {
 .contact-main-2 {
     display: grid;
     grid-template-columns: auto;
-    padding: 80px 20px 20px 20px;
+    padding: 100px;
     background-color: #cedcc3;
+    justify-content: center;
 }
 
 /*first child of Main Div of section 1 of contact page*/
 .contact-1-div-1 {
     padding: 10px 5px;
     color: #605e32;
+    
 }
 
 .contact-me-heading {
@@ -420,7 +422,47 @@ ul {
     text-align: center;
 }
 
+/*Site Report*/
+/*Section 1 of site report page*/
+.section-report-1 {
+    background-color: #f6f6e3;
+    padding: 50px 10px 10px 10px ;
+}
 
+/*Date CSS*/
+.date-report {
+    font-style: italic;
+    font-size: large;
+}
+
+/*Paragraph CSS*/
+.report-paragraph {
+    font-family: serif;
+    font-size: larger;
+}
+
+.div-wireframe-main-1 {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.div-wireframe-1-main-1 {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.wireframe-1-div-1 {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.image-wireframe {
+    width: 90%;
+    height: auto;
+    margin: 10px auto;
+    justify-content: center;
+    display: block;
+}
 
 /*WORK EXPERIENCE*/
 .head-workexp{
@@ -749,7 +791,7 @@ ul {
     .contact-main-2 {
         display: grid;
         grid-template-columns: auto auto;
-        padding: 130px 100px 100px 100px;
+        padding: 130px 100px;
         background-color: #cedcc3;
     }
 
@@ -799,7 +841,52 @@ ul {
         font-size: larger;
     }
 
- 
+    /*Site Report*/
+    /*Section 1 of site report page*/
+    .section-report-1 {
+        background-color: #f6f6e3;
+        padding: 100px 40px 40px 10px;
+    }
+
+    /*Date CSS of Site report*/
+    .date-report {
+        font-style: italic;
+        font-family: serif;
+        margin:0;
+    }
+
+    /*Paragraph CSS of site report*/
+    .report-paragraph {
+        font-family: serif;
+        font-size: larger;
+    }
+
+    /*Main div of section 1 of site report*/
+    .div-wireframe-main-1 {
+        display: grid;
+        grid-template-columns: auto;
+        border: 2px solid  #3a391e;
+    }
+
+    /*Child div Main div of section 1 of site report*/
+    .div-wireframe-1-main-1 {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    /*Inner-Child of Child div Main div of section 1 of site report*/
+    .wireframe-1-div-1 {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .image-wireframe {
+        width: 90%;
+        height: auto;
+        margin: 10px;
+        justify-content: center;
+        display: block;
+    }
 
     /*WORK EXPERIENCE*/
     .head-workexp{
