@@ -52,14 +52,15 @@ ul {
 }
 
 .hamburger-icon {
-    padding: 10px 40px;
+    padding: 10px 20px;
+    margin-right: auto;
     float: right;
 }
 
-.nav-icon{
+.nav-icon {
     display: grid;
     grid-template-rows: auto auto auto;
-    grid-row-gap:0px;
+    grid-row-gap: 0px;
 }
 
 /* hamburger Icon*/
@@ -69,7 +70,7 @@ ul {
     width: 20px;
     content: "";
     transition: background .2s ease-out;
-    float: right;  
+    float: right;
     margin: 5px 0px;
 }
 
@@ -79,7 +80,7 @@ ul {
     width: 20px;
     content: "";
     transition: background .2s ease-out;
-    float: right;   
+    float: right;
     top: 5px;
     margin: 5px 0px;
 }
@@ -90,10 +91,11 @@ ul {
     width: 20px;
     content: "";
     transition: background .2s ease-out;
-    float: right;   
+    float: right;
     top: -5px;
-    
+
 }
+
 .navigation-button {
     display: none;
 }
@@ -103,7 +105,7 @@ ul {
 }
 
 /*HOME PAGE*/
-/*Section 1 of home page*/
+/*Section 1 of home page*
 /*main div of section 1 of home page*/
 .home-1-main-div-1 {
     display: grid;
@@ -113,16 +115,17 @@ ul {
 /*child div-1 section 1 home page*/
 .home-1-div-1 {
     background-color: #fdfed7;
-    padding: 80px 15px 15px 15px;
+    padding: 70px 15px 15px 15px;
 }
 
 .home-page-image-1 {
-    width: 300px;
+    width: 100%;
     height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 30px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
 }
 
 /*child div-2 section 1 home page*/
@@ -134,6 +137,7 @@ ul {
 .para-tag-1 {
     color: #605e32;
     text-align: center;
+    font-family: serif;
 }
 
 .para-name-tag-1 {
@@ -156,7 +160,7 @@ ul {
 
 /* child div-1 section 2 home page*/
 .home-2-div-1 {
-    padding: 10px
+    padding: 10px;
 }
 
 .home-page-image-2 {
@@ -181,26 +185,48 @@ ul {
 }
 
 /*FOOTER*/
+/*Main div of footer*/
 .footer-main-div {
-    background-color: #94bda2;
+    padding: 10px;
+    color: #3a391e;
     display: grid;
     grid-template-columns: auto;
-    padding: 30px;
+    background-color: #94bda2;
 }
 
-.footer-image {
-    width: 100px;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+/*First chid div of main div of footer*/
+.footer-div-1 {
+    padding: 5px;
 }
 
 .heading-footer {
-    text-align: center;
-    text-shadow: #3a391e;
-    margin: 0px;
-    font-size: medium;
+    font-size: larger;
+    text-align: left;
+    margin: 0;
+}
+
+.footer-unorder-list {
+    text-align: left;
+    padding: 0;
+}
+
+.footer-unorder-list a {
+    text-decoration: none;
+    color: #3a391e;
+}
+
+.footer-list {
+    font-size: larger;
+}
+
+/*Second Child of main div of footer*/
+.footer-div-2 {
+    padding: 5px;
+}
+
+/*Third Child of main div of footer*/
+.footer-div-3 {
+    padding: 5px;
 }
 
 /*PORTFOLIO/ABOUT ME*/
@@ -215,13 +241,13 @@ ul {
 .div-1-portfolio-2 {
     display: grid;
     grid-template-columns: auto;
-    background-color: #b7d7ce;
+    background-color: #d5f6ec;
     padding: 80px 30px 30px 30px;
 }
 
 /*First inner child of section 1 div 1 of portfolio*/
 .portfolio-image-1 {
-    width: 300px;
+    width: 100%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
@@ -267,14 +293,13 @@ ul {
 
 /*Section 2 of portfolio section*/
 .portfolio-section-2 {
-    background-color: #a7b99e;
+    background-color: #ddfacf;
     padding: 30px 0px;
 }
 
 .portfolio-heading-2 {
     font-size: x-large;
     text-align: center;
-    background-color: #a7b99e;
     margin: 0;
     padding: 10px 0px;
 }
@@ -283,18 +308,17 @@ ul {
 .portfolio-2-main-2 {
     display: grid;
     grid-template-columns: auto;
-    background-color: #a7b99e;
+    background-color: #ddfacf;
 }
 
 /*First Child Div of portfolio section 2*/
 .portfolio-2-div-1 {
-    background-color: #a7b99e;
     display: grid;
     grid-template-columns: auto;
 }
 
 .gallary-image-1 {
-    width: 250px;
+    width: 80%;
     height: auto;
     display: block;
     margin: 0px auto 20px auto;
@@ -304,14 +328,13 @@ ul {
 .portfolio-2-div-2 {
     display: grid;
     grid-template-columns: auto;
-    background-color: #a7b99e;
 }
 
 
 
 /*First Inner-child div of Second child Div of portfolio section 2*/
 .gallary-image-2 {
-    width: 250px;
+    width: 80%;
     height: auto;
     display: block;
     margin: 0px auto 20px auto;
@@ -319,7 +342,7 @@ ul {
 
 /*Second Inner-child div of Second child Div of portfolio section 2*/
 .gallary-image-3 {
-    width: 250px;
+    width: 80%;
     height: auto;
     display: block;
     margin: 0px auto 20px auto;
@@ -327,21 +350,193 @@ ul {
 
 /*Third Child Div of portfolio section 2*/
 .portfolio-2-div-3 {
-    background-color: #a7b99e;
     display: grid;
     grid-template-columns: auto;
 }
 
 .gallary-image-4 {
-    width: 250px;
+    width: 80%;
     height: auto;
     display: block;
     margin: 0px auto 0px auto;
     padding-bottom: 30px;
 }
 
+/*CONTACT PAGE*/
+/*Section 1 of contact page*/
+/*Main Div of section 1 of contact page*/
+.contact-div-main-1 {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+/*first child of div of Main Div of section 1 of contact page*/
+.contact-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/*Second child of Main Div of section 1 of contact page*/
+.contact-main-2 {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 10px;
+    background-color: #cedcc3;
+}
+
+/*first child of inner-Child div of Main Div of section 1 of contact page*/
+.contact-1-div-1 {
+    padding: 10px 5px;
+    color: #605e32;
+}
+
+.contact-me-heading {
+    margin: 0;
+    font-size: x-large;
+}
+
+.contact-1-div-1 .contact-me-heading {
+    font-family: Copperplate, Papyrus, fantasy;
+}
+
+.to-contact-me-1 {
+    text-align: left;
+    font-size: large;
+    margin: 0;
+}
+
+.contact-unordered-list {
+    text-align: left;
+    margin: 0;
+    border: 2px solid #605e32;
+    border-radius: 10px;
+    padding: 5px;
+    font-family: serif;
+    font-size: larger
+}
+
+/*second child of inner-Child div of Main Div of section 1 of contact page*/
+.contact-form-message {
+    padding: 5px;
+    border: 3px solid #605e32;
+    font-size: small;
+    background-color: white;
+}
+
+.contact-form-message .contact-me-heading {
+    text-align: center;
+}
+
+.contact-me-form {
+    margin: 5px;
+    text-align: center;
+}
+
+/*Section 1 of site report page*/
+.section-report-1 {
+    background-color: #f6f6e3;
+    padding: 50px 10px;
+}
+
+/*Date CSS*/
+.date-report {
+    font-style: italic;
+    font-size: large;
+}
+
+/*Paragraph CSS*/
+.report-paragraph {
+    font-family: serif;
+    font-size: larger;
+}
+
+.div-wireframe-main-1 {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.div-wireframe-1-main-1 {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.wireframe-1-div-1 {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.image-wireframe {
+    width: 90%;
+    height: auto;
+    margin: 10px;
+    justify-content: center;
+}
+
+/*WORK EXPERIENCE*/
+.head-workexp{
+    text-align: center;
+    font-size: xx-large;
+    font-family: serif;
+}
+
+/*Section 1 of work experience*/
+.section-1-workexperience {
+    padding: 70px 40px 10px 40px;
+    background-color: #d1fcd9;
+}
+
+/*Main div of section 1 of work experience*/
+.div-workexp-main-1 {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+/*Child div of main div of section 1 of work experience*/
+.div-workexp-1 {
+    border: 2px solid #605e32;
+    border-top-right-radius: 32px;
+    border-bottom-left-radius: 32px;
+    justify-content: center;
+    margin: 10px;
+    padding: 5px;
+    background-color: #eef2fd;
+}
+
+/*Content*/
+.heading-workexp {
+    font-weight: bold;
+    font-size: x-large;
+    margin: 8px;
+    text-decoration: dotted;
+}
+
+.date-of-exp {
+    font-style: italic;
+    font-size: larger;
+    margin: 8px;
+}
+
+.workexperience-para {
+    margin: 8px;
+    font-size: larger;
+    font-family: serif;
+}
+
+.company {
+    font-size: larger;
+    font-weight: bold;
+    margin: 8px;
+}
+
+/*Main div of section 1 of work experience*/
+.section-2-workexperience {
+    padding: 10px 40px;
+    background-color: #d1fcd9;
+}
+
 /*CSS for laptop Screen*/
-@media (width >=900px) {
+@media (width >=700px) {
 
     /*HEADER/NAVIGATION BAR*/
     /*CSS for navigation bar in Laptop screen*/
@@ -386,9 +581,9 @@ ul {
 
     /*hamburger icon*/
     .hamburger-icon {
-        display:none;
+        display: none;
     }
-    
+
     /*HOME PAGE*/
     /*CSS of section 1 of home page for laptop Screen*/
     .home-1-main-div-1 {
@@ -400,16 +595,17 @@ ul {
     .home-1-div-1 {
         background-color: #e0ffcd;
         float: right;
-        padding: 100px;
+        padding: 90px;
     }
 
     .home-page-image-1 {
-        width: 500px;
+        width: 100%;
+        height: auto;
         display: block;
         margin-left: auto;
         margin-right: auto;
-        height: auto;
-        border-radius: 35px;
+        border-top-right-radius: 80px;
+        border-top-left-radius: 80px;
     }
 
     /*CSS of second div of main div section 1*/
@@ -437,7 +633,7 @@ ul {
     }
 
     .home-page-image-2 {
-        width: 300px;
+        width: 100%;
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -462,25 +658,53 @@ ul {
     }
 
     /*FOOTER*/
+    /*Main div of footer*/
     .footer-main-div {
-        padding: 100px 80px 20px 80px;
+        padding: 50px;
+        color: #3a391e;
+        background-color: #94bda2;
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+    /*First chid div of main div of footer*/
+    .footer-div-1 {
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .heading-footer {
         font-size: x-large;
+        text-align: left;
     }
 
-    .footer-image {
-        display: block;
+    .footer-unorder-list {
+        text-align: left;
+    }
+
+    .footer-unorder-list a {
+        text-decoration: none;
+        color: #3a391e;
+    }
+
+    .footer-list {
+        font-size: x-large;
+    }
+
+    /*Second Child of main div of footer*/
+    .footer-div-2 {
         margin-left: auto;
         margin-right: auto;
-        width: 150px;
-        height: auto
+    }
+
+    /*Third Child of main div of footer*/
+    .footer-div-3 {
+        margin-left: auto;
+        margin-right: auto;
     }
 
     /*PORTFOLIO PAGE*/
     /*Section 1 of portfolio page*/
-
     /*Main Div of Section 1 of portfolio page*/
     .portfolio-1-main-div-1 {
         display: grid;
@@ -490,7 +714,7 @@ ul {
     /*First Div Child of Section 1 of portfolio page*/
     /*First inner child of first div child of Section 1 of portfolio page*/
     .portfolio-image-1 {
-        width: 350px;
+        width: 100%;
         height: auto;
     }
 
@@ -513,7 +737,7 @@ ul {
 
     /*Second Section of portfolio page*/
     .portfolio-section-2 {
-        background-color: #a7b99e;
+        background-color: #ddfacf;;
         padding: 50px 0px;
     }
 
@@ -532,7 +756,7 @@ ul {
     /*First Child Main Div of Second Section of portfolio page*/
     .gallary-image-1 {
         margin: 0px 0px 0px auto;
-        width: 300px;
+        width: 80%;
         height: auto;
         border-radius: 50px;
     }
@@ -540,90 +764,206 @@ ul {
     /*Second Child Main Div of Second Section of portfolio page*/
     /*First Inner-child of Second Child Main Div of Second Section of portfolio page*/
     .gallary-image-2 {
-        width: 300px;
+        width: 80%;
         height: auto;
         display: block;
-        margin: 0px auto;
+        margin: 20px auto;
         border-radius: 50px;
 
     }
 
     /*Second Inner-child of Second Child Main Div of Second Section of portfolio page*/
     .gallary-image-3 {
-        width: 300px;
+        width: 80%;
         height: auto;
         display: block;
-        margin: 0px auto;
+        margin: 10px auto;
         border-radius: 50px;
     }
 
     /*Third Child Main Div of Second Section of portfolio page*/
     .gallary-image-4 {
-        width: 350px;
+        width: 80%;
         height: auto;
         display: block;
         margin: 0px auto 0px 0px;
         justify-content: right;
         border-radius: 60px;
     }
-}
 
-/* Gallary Of main div of second section of portfolio page in smaller laptop screen*/
-@media(width>=1300px) {
-
-    /*Second Section of portfolio page*/
-    .portfolio-section-2 {
-        background-color: #a7b99e;
-        padding: 50px 0px;
+    /*CONTACT PAGE*/
+    /*Section 1 of contact page*/
+    /*Main Div of section 1 of contact page*/
+    .contact-div-main-1 {
+        display: grid;
+        grid-template-columns: auto;
     }
 
-    .portfolio-heading-2 {
-        margin-top: 0;
+    /*first child of div of Main Div of section 1 of contact page*/
+    .contact-image {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 0px;
+    }
+
+    /*Second child of Main Div of section 1 of contact page*/
+    .contact-main-2 {
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 30px;
+        background-color: #cedcc3;
+    }
+
+    /*first child of inner-Child div of Main Div of section 1 of contact page*/
+    .contact-1-div-1 {
+        color: #605e32;
+        margin: 0 auto 0 auto;
+        justify-content: center;
+    }
+
+    .contact-me-heading {
         font-size: xx-large;
-        padding-top: 20px;
     }
 
-    /*Main Div of Second Section of portfolio page*/
-    .portfolio-2-main-2 {
+    .contact-1-div-1 .contact-me-heading {
+        font-family: Copperplate, Papyrus, fantasy;
+    }
+
+    .to-contact-me-1 {
+        text-align: left;
+        font-size: xx-large;
+        margin-top: 30px;
+    }
+
+    .contact-unordered-list {
+        text-align: left;
+        margin-top: 30px;
+        font-family: serif;
+        font-size: x-large;
+    }
+
+    /*second child of inner-Child div of Main Div of section 1 of contact page*/
+    .contact-form-message {
+        padding: 20px;
+        margin: 0px 10px 0px 40px;
+        border: 3px solid #605e32;
+        background-color: white;
+    }
+
+    .contact-form-message .contact-me-heading {
+        text-align: center;
+    }
+
+    .contact-me-form {
+        margin: 50px;
+        text-align: center;
+        font-size: larger;
+    }
+
+    /*Section 1 of site report page*/
+    .section-report-1 {
+        background-color: #f6f6e3;
+        padding: 100px;
+    }
+
+    /*Date CSS of Site report*/
+    .date-report {
+        font-style: italic;
+        font-family: serif;
+    }
+
+    /*Paragraph CSS of site report*/
+    .report-paragraph {
+        font-family: serif;
+        font-size: larger;
+    }
+
+    /*Main div of section 1 of site report*/
+    .div-wireframe-main-1 {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    /*Child div Main div of section 1 of site report*/
+    .div-wireframe-1-main-1 {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    /*Inner-Child of Child div Main div of section 1 of site report*/
+    .wireframe-1-div-1 {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .image-wireframe {
+        width: 80%;
+        height: auto;
+        margin: 10px;
+        justify-content: center;
+    }
+
+    /*WORK EXPERIENCE*/
+    .head-workexp{
+       text-align: center;
+       font-size: xx-large;
+       font-weight: bolder;
+    }
+
+    /*Section 1 of work experience*/
+    .section-1-workexperience {
+        padding: 100px 80px 10px 80px;
+        background-color: #d1fcd9;
+    }
+
+    /*Main div of section 1 of work experience*/
+    .div-workexp-main-1 {
         display: grid;
         grid-template-columns: auto auto auto;
     }
 
-    /*First Child Main Div of Second Section of portfolio page*/
-    .gallary-image-1 {
-        margin: 0px 0px 0px auto;
-        width: 450px;
-        height: auto;
-        border-radius: 50px;
+    /*Child div of main div of section 1 of work experience*/
+    .div-workexp-1 {
+        border: 2px solid #605e32;
+        border-top-right-radius: 32px;
+        border-bottom-left-radius: 32px;
+        justify-content: center;
+        
+        padding: 5px;
+        background-color: #eef2fd;
     }
 
-    /*Second Child Main Div of Second Section of portfolio page*/
-    /*First Inner-child of Second Child Main Div of Second Section of portfolio page*/
-    .gallary-image-2 {
-        width: 450px;
-        height: auto;
-        display: block;
-        margin: 0px auto;
-        border-radius: 50px;
-
+    /*Content*/
+    .heading-workexp {
+        font-weight: bold;
+        font-size: x-large;
+        margin: 8px;
+        text-decoration: dotted;
     }
 
-    /*Second Inner-child of Second Child Main Div of Second Section of portfolio page*/
-    .gallary-image-3 {
-        width: 450px;
-        height: auto;
-        display: block;
-        margin: 0px auto;
-        border-radius: 50px;
+    .date-of-exp {
+        font-style: italic;
+        font-size: larger;
+        margin: 8px;
     }
 
-    /*Third Child Main Div of Second Section of portfolio page*/
-    .gallary-image-4 {
-        width: 500px;
-        height: auto;
-        display: block;
-        margin: 0px auto 0px 0px;
-        justify-content: right;
-        border-radius: 60px;
+    .workexperience-para {
+        margin: 8px;
+        font-size: larger;
+        font-family: serif;
     }
+
+    .company {
+        font-size: larger;
+        font-weight: bold;
+        margin: 8px;
+    }
+
+    /*Main div of section 1 of work experience*/
+    .section-2-workexperience {
+        padding: 10px 80px 70px 80px;
+        background-color: #d1fcd9;
+    }
+
 }

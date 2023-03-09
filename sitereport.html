@@ -1,57 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!--Title of the web page-->
-        <title>Portfolio</title>
-        <!--Link of external CSS-->
-        <link rel=" stylesheet" href="css/portfolio.css">
-    </head>
-    <body>
-        <header>
-            <!--Navigation Bar-->
-            <nav class="navigation-bar">
-                <!--For Hamburger icon-->
-                <input class="navigation-button" type="checkbox" id="navigation-button" />
-                <label class="hamburger-icon" for="navigation-button">
-                    <div class="nav-icon">
-                        <div class="nav-icon-head-1"></div>
-                        <div class="nav-icon-head-2"></div>
-                        <div class="nav-icon-head"></div>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Title of the web page-->
+    <title>Portfolio</title>
+    <!--Link of external CSS-->
+    <link rel=" stylesheet" href="css/portfolio.css">
+    <style>
+      .image-header-1{
+        width: 90%;
+        height: auto;
+        display:block ;
+      }
+    </style>
+</head>
+
+<body>
+    <header>
+        <!--Navigation Bar-->
+        <nav class="navigation-bar">
+            <!--For Hamburger icon-->
+            <input class="navigation-button" type="checkbox" id="navigation-button" />
+            <label class="hamburger-icon" for="navigation-button">
+                <div class="nav-icon">
+                    <div class="nav-icon-head-1"></div>
+                    <div class="nav-icon-head-2"></div>
+                    <div class="nav-icon-head"></div>
+                </div>
+            </label>
+            <h3 class="name">Portfolio</h3>
+            <!--Menu items -->
+            <ul class="nav-menu-list">
+                <li class="nav-list "><a href="index.html"> Home </a></li>
+                <li class="nav-list"><a href="portfolio.html"> About Me </a></li>
+                <li class="nav-list "><a href="contact.html"> Contact</a></li>
+                <li class="nav-list"><a href="workexperience.html"> Work Experience</a></li>
+                <li class="nav-list active"><a href="sitereport.html">Report</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--This is where the body of the page begins.-->
+    <main>
+        <!--First Section-->
+        <section class="section-report-1">
+            <h5 class="date-report">25/02/2023-28/02/2023</h5>
+            <p class="report-paragraph">
+                Before starting the project, it is important to look for inspirations
+                
+            </p>
+            <div class="div-wireframe-main">
+                <div class="div-wireframe-1-main-1">
+                    <div class="wireframe-1-div-1">
+                        <img class="image-wireframe" src="image/home-wireframe-1.jpg">
                     </div>
-                </label>
-                <h3 class="name">Portfolio</h3>
-                <!--Menu items -->
-                <ul class="nav-menu-list">
-                    <li class="nav-list "><a href="index.html"> Home </a></li>
-                    <li class="nav-list"><a href="portfolio.html"> About Me </a></li>
-                    <li class="nav-list "><a href="contact.html"> Contact</a></li>
-                    <li class="nav-list"><a href="workexperience.html"> Work Experience</a></li>
-                    <li class="nav-list active"><a href="sitereport.html">Report</a></li>
-                </ul>
-            </nav>    
-        </header>
-        <!--This is where the body of the page begins.-->
-        <main>
-            <!--First Section-->
-            <section>
-          
-            </section>
-        </main>
+                    <div class="wireframe-1-div-1">
+                        <img class="image-wireframe" src="image/portfolio-wireframe-1.jpg">
+                    </div>                    
+                </div>
+                <div class="div-wireframe-1-main-1">
+                    <div class="wireframe-1-div-1">
+                        <img class="image-wireframe" src="image/contact-wireframe-1.jpg">
+                    </div>
+                    <div class="wireframe-1-div-1">
+                        <img class="image-wireframe" src="image/workexperience-wireframe-1.jpg">
+                    </div>                    
+                </div>
+            </div>
+            <h5 class="date-report">/03/2023-/03/</h5>
+            <p class="report-paragraph">
+               I first started with making the navigation bar.
+               I used nav tag for navigation tag and a tag to
+               link all the pages in the navigation bar.
+            </p>
+            <img class="image-header-1" src="image/report-1.jpg">
+            <p class="report-paragraph">
+                Then I tried adding hamburger menu. It was quite challenging honestly
+            </p>
+
+        </section>
+    </main>
         <!--Footer-->
         <footer>
             <!--Footer main Div-->
             <div class="footer-main-div">
                 <div class="footer-div-1">
-                    <h2 class="heading-footer">Find me on</h2>
+                    <label class="heading-footer" for="freeform">Message Me</label></br>
+                    <textarea id="freeform" name="freeform" rows="6" cols="30"></textarea></br>
+                    <button type="submit" name="submit">Submit</button>                    
                 </div>
                 <div class="footer-div-2">
-                    <img class="footer-image" src="image/footerimage.png">
+                  <h2 class="heading-footer">Quick Link</h2>
+                    <ul class="footer-unorder-list">
+                        <li class="footer-list"><a href="contact.html">Contact</a></li>
+                        <li class="footer-list"><a href="portfolio.html">About Me</a></li>
+                        <li class="footer-list"><a href="workexperience.html">My Experience</a></li>
+                    </ul>                  
+                </div>
+                <div class="footer-div-3">
+                    <ul class="footer-unorder-list">
+                        <li class="footer-list">Jorpati,Kathmandu,Nepal</li>
+                        <li class="footer-list">pragyakuinkel9@gmail.com</li>
+                        <li class="footer-list">9841469902</li>
+                    </ul>
                 </div>
             </div>
         </footer>
-    </body>
-    </body>
+</body>
+</body>
+
 </html>
