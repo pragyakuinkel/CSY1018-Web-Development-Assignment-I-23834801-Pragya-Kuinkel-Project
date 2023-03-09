@@ -422,9 +422,10 @@ ul {
 
 /*second child of inner-Child div of Main Div of section 1 of contact page*/
 .contact-form-message {
-    padding: 10px 0px 10px 0px;
+    padding: 5px;
     border: 3px solid #605e32;
     font-size: small;
+    background-color: white;
 }
 
 .contact-form-message .contact-me-heading {
@@ -786,9 +787,10 @@ ul {
 
     /*second child of inner-Child div of Main Div of section 1 of contact page*/
     .contact-form-message {
-        padding: 30px;
+        padding: 20px;
         margin: 0px 10px 0px 40px;
         border: 3px solid #605e32;
+        background-color: white;
     }
 
     .contact-form-message .contact-me-heading {
