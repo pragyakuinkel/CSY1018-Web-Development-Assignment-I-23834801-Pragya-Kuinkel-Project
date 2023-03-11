@@ -368,8 +368,8 @@ ul {
 .contact-main-2 {
     display: grid;
     grid-template-columns: auto;
-    padding: 100px;
-    background-color: #cedcc3;
+    padding: 60px;
+    background-color: #ddfacf;
     justify-content: center;
 }
 
@@ -377,7 +377,6 @@ ul {
 .contact-1-div-1 {
     padding: 10px 5px;
     color: #605e32;
-    
 }
 
 .contact-me-heading {
@@ -387,6 +386,7 @@ ul {
 
 .contact-1-div-1 .contact-me-heading {
     font-family: Copperplate, Papyrus, fantasy;
+    
 }
 
 .to-contact-me-1 {
@@ -398,9 +398,9 @@ ul {
 .contact-unordered-list {
     text-align: left;
     margin: 0;
-    border: 2px solid #605e32;
+    border:2px solid #605e32;
     border-radius: 10px;
-    padding: 5px;
+    padding: 20px;
     font-family: serif;
     font-size: larger
 }
@@ -408,9 +408,9 @@ ul {
 /*second child of Main Div of section 1 of contact page*/
 .contact-form-message {
     padding: 5px;
-    border: 3px solid #605e32;
     font-size: small;
-    background-color: white;
+    background-color: #d1d4cf;
+    margin: auto; 
 }
 
 .contact-form-message .contact-me-heading {
@@ -463,6 +463,8 @@ ul {
     justify-content: center;
     display: block;
 }
+
+
 
 /*WORK EXPERIENCE*/
 .head-workexp{
@@ -791,15 +793,14 @@ ul {
     .contact-main-2 {
         display: grid;
         grid-template-columns: auto auto;
-        padding: 130px 100px;
-        background-color: #cedcc3;
+        padding: 130px 10px;
+        background-color: #ddfacf;
     }
 
     /*first child of Main Div of section 1 of contact page*/
     .contact-1-div-1 {
         color: #605e32;
-        margin: 0 auto 0 auto;
-        justify-content: center;
+        margin: 0 10px 0 auto;
     }
 
     .contact-me-heading {
@@ -827,8 +828,7 @@ ul {
     .contact-form-message {
         padding: 20px;
         margin: 0px 10px 0px 40px;
-        border: 3px solid #605e32;
-        background-color: white;
+        background-color: #d1d4cf;
     }
 
     .contact-form-message .contact-me-heading {
@@ -845,7 +845,7 @@ ul {
     /*Section 1 of site report page*/
     .section-report-1 {
         background-color: #f6f6e3;
-        padding: 100px 40px 40px 10px;
+        padding: 100px 40px 0px 40px;
     }
 
     /*Date CSS of Site report*/
@@ -884,9 +884,11 @@ ul {
         width: 90%;
         height: auto;
         margin: 10px;
-        justify-content: center;
         display: block;
-    }
+    } 
+    
+
+
 
     /*WORK EXPERIENCE*/
     .head-workexp{
@@ -895,6 +897,8 @@ ul {
        font-weight: bolder;
        color: #504e23;
     }
+
+   
 
     /*Section 1 of work experience*/
     .section-1-workexperience {
