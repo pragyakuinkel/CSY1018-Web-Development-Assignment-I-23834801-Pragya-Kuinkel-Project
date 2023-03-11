@@ -464,7 +464,25 @@ ul {
     display: block;
 }
 
+/*Second section of report page*/
+.section-report-2{
+    background-color: #f6f6e3;
+    padding: 1px 10px 10px 10px;
+    margin: 0px;
+}
 
+/*Div of image header*/
+.image-header-div-1{
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.image-header-1{
+    display: block;
+    width: 80%;
+    height: auto;
+    margin: 10px auto;     
+}
 
 /*WORK EXPERIENCE*/
 .head-workexp{
@@ -887,7 +905,24 @@ ul {
         display: block;
     } 
     
+    /*Second section of report page*/
+    .section-report-2{
+        background-color: #f6f6e3;
+        padding: 10px 40px 0px 40px;
+    }
 
+    /*Div of image header*/
+    .image-header-div-1{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    
+    .image-header-1{
+        margin: 10px auto;
+        width: 50%;
+        height: auto;
+        display: block;
+    } 
 
 
     /*WORK EXPERIENCE*/
