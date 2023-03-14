@@ -426,82 +426,6 @@ ul {
     margin: 5px;
 }
 
-/*Site Report*/
-/*Section 1 of site report page*/
-.section-report-1 {
-    background-color: #f6f6e3;
-    padding: 50px 10px 10px 10px ;
-}
-
-/*Date CSS*/
-.date-report {
-    font-style: italic;
-    font-size: large;
-}
-
-/*Paragraph CSS*/
-.report-paragraph {
-    font-family: serif;
-    font-size: larger;
-}
-
-.div-wireframe-main-1 {
-    display: grid;
-    grid-template-columns: auto;
-}
-
-.div-wireframe-1-main-1 {
-    display: grid;
-    grid-template-columns: auto;
-}
-
-.wireframe-1-div-1 {
-    display: grid;
-    grid-template-columns: auto;
-}
-
-.image-wireframe {
-    width: 90%;
-    height: auto;
-    margin: 10px auto;
-    justify-content: center;
-    display: block;
-}
-
-.report-caption{
-    text-align:left;
-    font-family: serif;
-    font-size: larger;
-    margin: 0px auto;
-}
-
-/*Second section of report page*/
-.section-report-2{
-    background-color: #f6f6e3;
-    padding: 1px 10px 10px 10px;
-    margin: 0px;
-}
-
-/*Div of image header*/
-.image-header-div-1{
-    display: grid;
-    grid-template-columns: auto;
-}
-
-.image-header-1{
-    display: block;
-    width: 80%;
-    height: auto;
-    margin: 10px auto;     
-}
-
-/*Third section of site report*/
-.section-report-3{
-    background-color: #f6f6e3;
-    padding: 1px 10px 10px 10px;
-    margin: 0px;
-}
-
 /*WORK EXPERIENCE*/
 .head-workexp{
     text-align: center;
@@ -565,6 +489,103 @@ ul {
     padding: 10px 40px;
     background-color: #d1fcd9;
     color: #504e23;
+}
+
+/*Site Report*/
+/*Section 1 of site report page*/
+.section-report-1 {
+    background-color: #f6f6e3;
+    padding: 50px 10px 10px 10px ;
+}
+
+/*Date CSS*/
+.date-report {
+    font-style: italic;
+    font-size: larger;
+    text-decoration: underline;
+}
+
+/*Paragraph CSS*/
+.report-paragraph {
+    font-family: serif;
+    font-size: larger;
+}
+
+.div-wireframe-main-1 {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.div-wireframe-1-main-1 {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.wireframe-1-div-1 {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.image-wireframe {
+    width: 90%;
+    height: auto;
+    margin: 0px auto;
+    justify-content: center;
+    display: block;
+}
+
+.report-caption{
+    text-align:center;
+    font-family: serif;
+    font-size: small;
+    margin:10px auto;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/*Second section of report page*/
+/*Div of image header*/
+.image-header-div-1{
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.image-header-1{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;     
+}
+
+.image-header-2{
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+    display: block;
+}
+
+/*Hamburger Fixed div*/
+.hamburger-icon-main-div{
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.hamburger-icon-1-div-1{
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.git-screenshot-1 ,.git-screenshot-2 ,.git-screenshot-3{
+    width: 90%;
+    height: auto;
+    display: block;
+    margin: 0px auto;
+}
+
+/*Code Validation*/
+.section-validation{
+    background-color: #f6f6e3;
+    padding: 50px 10px 10px 10px ;
 }
 
 /*CSS for laptop Screen*/
@@ -743,7 +764,7 @@ ul {
     /*First Div Child of Section 1 of portfolio page*/
     /*First inner child of first div child of Section 1 of portfolio page*/
     .portfolio-image-1 {
-        width: 100%;
+        width: 400px;
         height: auto;
     }
 
@@ -754,6 +775,7 @@ ul {
 
     /*Inner child of first div child of Section 1 of portfolio page*/
     .div-1-portfolio-1-child-1 {
+        margin: 30px;
         padding: 40px 20px;
     }
 
@@ -767,13 +789,13 @@ ul {
     /*Second Section of portfolio page*/
     .portfolio-section-2 {
         background-color: #ddfacf;;
-        padding: 50px 0px;
+        padding: 50px 0;
+        justify-content: center;
     }
 
-    .portfolio-heading-2 {
-        margin-top: 0;
+    .portfolio-heading-1 {
+        margin-top: 10px;
         font-size: xx-large;
-        padding-top: 20px;
     }
 
     /*Main Div of Second Section of portfolio page*/
@@ -880,85 +902,6 @@ ul {
         font-size: larger;
     }
 
-    /*Site Report*/
-    /*Section 1 of site report page*/
-    .section-report-1 {
-        background-color: #f6f6e3;
-        padding: 100px 40px 0px 40px;
-    }
-
-    /*Date CSS of Site report*/
-    .date-report {
-        font-style: italic;
-        font-family: serif;
-        margin:0;
-    }
-
-    /*Paragraph CSS of site report*/
-    .report-paragraph {
-        font-family: serif;
-        font-size: larger;
-    }
-
-    /*Main div of section 1 of site report*/
-    .div-wireframe-main-1 {
-        display: grid;
-        grid-template-columns: auto;
-        border: 2px solid  #3a391e;
-    }
-
-    /*Child div Main div of section 1 of site report*/
-    .div-wireframe-1-main-1 {
-        display: grid;
-        grid-template-columns: auto auto;
-    }
-
-    /*Inner-Child of Child div Main div of section 1 of site report*/
-    .wireframe-1-div-1 {
-        display: grid;
-        grid-template-columns: auto auto;
-    }
-
-    .image-wireframe {
-        width: 90%;
-        height: auto;
-        margin: 10px;
-        display: block;
-    } 
-    
-    .report-caption{
-        text-align:left ;
-        font-family: serif;
-        font-size: larger;
-        margin: 0px 10px 10px 10px;
-    }
-
-    /*Second section of report page*/
-    .section-report-2{
-        background-color: #f6f6e3;
-        padding: 10px 40px 0px 40px;
-    }
-
-    /*Div of image header*/
-    .image-header-div-1{
-        display: grid;
-        grid-template-columns: auto auto;
-    }
-    
-    .image-header-1{
-        margin: 10px auto;
-        width: 50%;
-        height: auto;
-        display: block;
-    } 
-
-    /*Third section of site report*/
-    .section-report-3{
-        background-color: #f6f6e3;
-        padding: 10px 40px 0px 40px;
-    }
-
-
     /*WORK EXPERIENCE*/
     .head-workexp{
        text-align: center;
@@ -1023,4 +966,124 @@ ul {
         color: #504e23;
     }
 
+    /*Site Report*/
+    /*Section 1 of site report page*/
+    .section-report-1 {
+        background-color: #f6f6e3;
+        padding: 100px 40px 0px 40px;
+    }
+
+    /*Date CSS of Site report*/
+    .date-report {
+        font-style: italic;
+        font-family: serif;
+        text-decoration: underline;
+        font-size: x-large;
+        margin:0;
+    }
+
+    /*Paragraph CSS of site report*/
+    .report-paragraph {
+        font-family: serif;
+        font-size: larger;
+    }
+
+    /*Main div of section 1 of site report*/
+    .div-wireframe-main-1 {
+        display: grid;
+        grid-template-columns: auto;
+        border: 2px solid  #3a391e;
+    }
+
+    /*Child div Main div of section 1 of site report*/
+    .div-wireframe-1-main-1 {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    /*Inner-Child of Child div Main div of section 1 of site report*/
+    .wireframe-1-div-1 {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .image-wireframe {
+        width: 90%;
+        height: auto;
+        margin: 10px;
+        display: block;
+    } 
+    
+    .report-caption{
+        text-align:center ;
+        font-family: serif;
+        font-size: larger;
+        margin: 0px;
+        text-decoration: underline;
+        font-weight: bold;
+    }
+
+    /*Second section of report page*/
+    /*Div of image header*/
+    .image-header-div-1{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    
+    .image-header-1{
+        margin: 10px auto;
+        width: 100%;
+        height: auto;
+        display: block;
+    } 
+
+    .image-header-2{
+        margin: 0 auto;
+        width: 50%;
+        height: auto;
+        display: block;
+    }
+
+    /*Hamburger Fixed*/
+    .hamburger-icon-main-div{
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .hamburger-icon-1-div-1{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .hamburger-icon-2-div-2{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .git-screenshot-1{
+        width: 85%;
+        height: auto;
+        display: block;
+        margin: 0px auto;
+    }
+    
+    .git-screenshot-2{
+        width: 70%;
+        height: auto;
+        display: block;
+        margin: 0px auto;
+    }
+
+    .git-screenshot-3{
+        width: 60%;
+        height: auto;
+        display: block;
+        margin: 0px auto;
+    }
+
+    /*Code Validation*/
+    .section-validation{
+        background-color: #f6f6e3;
+        padding: 100px 40px 40px 40px;
+    }
 }
