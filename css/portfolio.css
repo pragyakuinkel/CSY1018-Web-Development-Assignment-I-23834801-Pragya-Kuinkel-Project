@@ -124,8 +124,7 @@ ul {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border-top-right-radius: 50px;
-    border-top-left-radius: 50px;
+
 }
 
 /*child div-2 section 1 home page*/
@@ -174,7 +173,6 @@ ul {
 /*child div-2 0f section 2 home page*/
 .heading-2-home-page {
     text-align: center;
-    text-shadow: #3a391e;
     margin: 0px;
 }
 
@@ -241,7 +239,7 @@ ul {
 .div-1-portfolio-2 {
     display: grid;
     grid-template-columns: auto;
-    background-color: #d5f6ec;
+    background-color: #e8f7f2;
     padding: 80px 30px 30px 30px;
 }
 
@@ -365,27 +363,15 @@ ul {
 /*CONTACT PAGE*/
 /*Section 1 of contact page*/
 /*Main Div of section 1 of contact page*/
-.contact-div-main-1 {
-    display: grid;
-    grid-template-columns: auto;
-}
-
-/*first child of div of Main Div of section 1 of contact page*/
-.contact-image {
-    width: 100%;
-    height: auto;
-    display: block;
-}
-
-/*Second child of Main Div of section 1 of contact page*/
 .contact-main-2 {
     display: grid;
     grid-template-columns: auto;
-    padding: 10px;
-    background-color: #cedcc3;
+    padding: 60px;
+    background-color:#ddfacf;
+    justify-content: center;
 }
 
-/*first child of inner-Child div of Main Div of section 1 of contact page*/
+/*first child of Main Div of section 1 of contact page*/
 .contact-1-div-1 {
     padding: 10px 5px;
     color: #605e32;
@@ -393,84 +379,51 @@ ul {
 
 .contact-me-heading {
     margin: 0;
-    font-size: x-large;
+    font-size: xx-large;
 }
 
 .contact-1-div-1 .contact-me-heading {
     font-family: Copperplate, Papyrus, fantasy;
+    
 }
 
 .to-contact-me-1 {
     text-align: left;
     font-size: large;
-    margin: 0;
+    margin: 10px;
 }
 
 .contact-unordered-list {
     text-align: left;
     margin: 0;
-    border: 2px solid #605e32;
+    border:2px solid #605e32;
     border-radius: 10px;
-    padding: 5px;
+    padding: 20px;
     font-family: serif;
     font-size: larger
 }
 
-/*second child of inner-Child div of Main Div of section 1 of contact page*/
-.contact-form-message {
-    padding: 5px;
-    border: 3px solid #605e32;
-    font-size: small;
-    background-color: white;
+/*second child of Main Div of section 1 of contact page*/
+.contact-me-heading-2 {
+    margin: 0;
+    font-size: x-large;
+    text-align: center;
 }
 
-.contact-form-message .contact-me-heading {
-    text-align: center;
+.contact-form-message {
+    padding: 10px;
+    font-size:18px;
+    border-radius: 35px;
+    border:2px solid #3a391e;
+    font-weight: bold;
+    font-family: serif;
+    background-color: #edf1b0;
+    margin: auto; 
+    text-align: left;
 }
 
 .contact-me-form {
     margin: 5px;
-    text-align: center;
-}
-
-/*Section 1 of site report page*/
-.section-report-1 {
-    background-color: #f6f6e3;
-    padding: 50px 10px;
-}
-
-/*Date CSS*/
-.date-report {
-    font-style: italic;
-    font-size: large;
-}
-
-/*Paragraph CSS*/
-.report-paragraph {
-    font-family: serif;
-    font-size: larger;
-}
-
-.div-wireframe-main-1 {
-    display: grid;
-    grid-template-columns: auto;
-}
-
-.div-wireframe-1-main-1 {
-    display: grid;
-    grid-template-columns: auto;
-}
-
-.wireframe-1-div-1 {
-    display: grid;
-    grid-template-columns: auto;
-}
-
-.image-wireframe {
-    width: 90%;
-    height: auto;
-    margin: 10px;
-    justify-content: center;
 }
 
 /*WORK EXPERIENCE*/
@@ -478,12 +431,14 @@ ul {
     text-align: center;
     font-size: xx-large;
     font-family: serif;
+    color: #504e23;
 }
 
 /*Section 1 of work experience*/
 .section-1-workexperience {
     padding: 70px 40px 10px 40px;
     background-color: #d1fcd9;
+    color: #504e23;
 }
 
 /*Main div of section 1 of work experience*/
@@ -533,10 +488,108 @@ ul {
 .section-2-workexperience {
     padding: 10px 40px;
     background-color: #d1fcd9;
+    color: #504e23;
+}
+
+/*Site Report*/
+/*Section 1 of site report page*/
+.section-report-1 {
+    background-color: #f6f6e3;
+    padding: 50px 10px 10px 10px ;
+}
+
+/*Date CSS*/
+.date-report {
+    font-style: italic;
+    font-size: larger;
+    text-decoration: underline;
+}
+
+/*Paragraph CSS*/
+.report-paragraph {
+    font-family: serif;
+    font-size: larger;
+}
+
+.div-wireframe-main-1 {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.div-wireframe-1-main-1 {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.wireframe-1-div-1 {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.image-wireframe {
+    width: 90%;
+    height: auto;
+    margin: 0px auto;
+    justify-content: center;
+    display: block;
+}
+
+.report-caption{
+    text-align:center;
+    font-family: serif;
+    font-size: small;
+    margin:10px auto;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/*Second section of report page*/
+/*Div of image header*/
+.image-header-div-1{
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.image-header-1{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;     
+}
+
+.image-header-2{
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+    display: block;
+}
+
+/*Hamburger Fixed div*/
+.hamburger-icon-main-div{
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.hamburger-icon-1-div-1{
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.git-screenshot-1 ,.git-screenshot-2 ,.git-screenshot-3{
+    width: 90%;
+    height: auto;
+    display: block;
+    margin: 0px auto;
+}
+
+/*Code Validation*/
+.section-validation{
+    background-color: #f6f6e3;
+    padding: 50px 10px 10px 10px ;
 }
 
 /*CSS for laptop Screen*/
-@media (width >=700px) {
+@media (width >=900px) {
 
     /*HEADER/NAVIGATION BAR*/
     /*CSS for navigation bar in Laptop screen*/
@@ -569,7 +622,6 @@ ul {
 
     .nav-list {
         padding: 12px;
-        text-justify: distribute;
         font-size: larger;
         color: #3a391e;
     }
@@ -604,8 +656,6 @@ ul {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        border-top-right-radius: 80px;
-        border-top-left-radius: 80px;
     }
 
     /*CSS of second div of main div section 1*/
@@ -714,7 +764,7 @@ ul {
     /*First Div Child of Section 1 of portfolio page*/
     /*First inner child of first div child of Section 1 of portfolio page*/
     .portfolio-image-1 {
-        width: 100%;
+        width: 400px;
         height: auto;
     }
 
@@ -725,6 +775,7 @@ ul {
 
     /*Inner child of first div child of Section 1 of portfolio page*/
     .div-1-portfolio-1-child-1 {
+        margin: 30px;
         padding: 40px 20px;
     }
 
@@ -738,13 +789,13 @@ ul {
     /*Second Section of portfolio page*/
     .portfolio-section-2 {
         background-color: #ddfacf;;
-        padding: 50px 0px;
+        padding: 50px 0;
+        justify-content: center;
     }
 
-    .portfolio-heading-2 {
-        margin-top: 0;
+    .portfolio-heading-1 {
+        margin-top: 10px;
         font-size: xx-large;
-        padding-top: 20px;
     }
 
     /*Main Div of Second Section of portfolio page*/
@@ -794,114 +845,61 @@ ul {
     /*CONTACT PAGE*/
     /*Section 1 of contact page*/
     /*Main Div of section 1 of contact page*/
-    .contact-div-main-1 {
-        display: grid;
-        grid-template-columns: auto;
-    }
-
-    /*first child of div of Main Div of section 1 of contact page*/
-    .contact-image {
-        width: 100%;
-        height: auto;
-        display: block;
-        margin: 0px;
-    }
-
-    /*Second child of Main Div of section 1 of contact page*/
     .contact-main-2 {
         display: grid;
         grid-template-columns: auto auto;
-        padding: 30px;
-        background-color: #cedcc3;
+        padding: 150px 10px;
+        background-color:#ddfacf;
+        
     }
 
-    /*first child of inner-Child div of Main Div of section 1 of contact page*/
+    /*first child of Main Div of section 1 of contact page*/
     .contact-1-div-1 {
         color: #605e32;
-        margin: 0 auto 0 auto;
-        justify-content: center;
+        margin: 10px auto ;
+        display: block;
     }
 
     .contact-me-heading {
-        font-size: xx-large;
-    }
-
-    .contact-1-div-1 .contact-me-heading {
         font-family: Copperplate, Papyrus, fantasy;
+        margin-top: 55px;
+        font-size: 60px;
     }
 
     .to-contact-me-1 {
         text-align: left;
         font-size: xx-large;
-        margin-top: 30px;
+        margin-top: 10px;
     }
 
     .contact-unordered-list {
         text-align: left;
-        margin-top: 30px;
+        margin-top: 10px;
         font-family: serif;
         font-size: x-large;
     }
 
-    /*second child of inner-Child div of Main Div of section 1 of contact page*/
-    .contact-form-message {
-        padding: 20px;
-        margin: 0px 10px 0px 40px;
-        border: 3px solid #605e32;
-        background-color: white;
+    /*second child of Main Div of section 1 of contact page*/
+    .contact-me-heading-2{
+       font-size: xx-large;
+       text-align: center;
     }
 
-    .contact-form-message .contact-me-heading {
-        text-align: center;
+    .contact-form-message {
+        padding: 60px 40px;
+        margin:10px auto 10px 40px;
+        border-radius: 35px;
+        border:2px solid #3a391e;
+        font-weight: bold;
+        font-family: serif;
+        display: block;
+        background-color: #edf1b0;
     }
 
     .contact-me-form {
-        margin: 50px;
-        text-align: center;
+        margin: 10px 50px ;
+        text-align: left;
         font-size: larger;
-    }
-
-    /*Section 1 of site report page*/
-    .section-report-1 {
-        background-color: #f6f6e3;
-        padding: 100px;
-    }
-
-    /*Date CSS of Site report*/
-    .date-report {
-        font-style: italic;
-        font-family: serif;
-    }
-
-    /*Paragraph CSS of site report*/
-    .report-paragraph {
-        font-family: serif;
-        font-size: larger;
-    }
-
-    /*Main div of section 1 of site report*/
-    .div-wireframe-main-1 {
-        display: grid;
-        grid-template-columns: auto;
-    }
-
-    /*Child div Main div of section 1 of site report*/
-    .div-wireframe-1-main-1 {
-        display: grid;
-        grid-template-columns: auto auto;
-    }
-
-    /*Inner-Child of Child div Main div of section 1 of site report*/
-    .wireframe-1-div-1 {
-        display: grid;
-        grid-template-columns: auto auto;
-    }
-
-    .image-wireframe {
-        width: 80%;
-        height: auto;
-        margin: 10px;
-        justify-content: center;
     }
 
     /*WORK EXPERIENCE*/
@@ -909,12 +907,14 @@ ul {
        text-align: center;
        font-size: xx-large;
        font-weight: bolder;
+       color: #504e23;
     }
 
-    /*Section 1 of work experience*/
+   /*Section 1 of work experience*/
     .section-1-workexperience {
         padding: 100px 80px 10px 80px;
         background-color: #d1fcd9;
+        color: #504e23;
     }
 
     /*Main div of section 1 of work experience*/
@@ -929,7 +929,6 @@ ul {
         border-top-right-radius: 32px;
         border-bottom-left-radius: 32px;
         justify-content: center;
-        
         padding: 5px;
         background-color: #eef2fd;
     }
@@ -964,6 +963,127 @@ ul {
     .section-2-workexperience {
         padding: 10px 80px 70px 80px;
         background-color: #d1fcd9;
+        color: #504e23;
     }
 
+    /*Site Report*/
+    /*Section 1 of site report page*/
+    .section-report-1 {
+        background-color: #f6f6e3;
+        padding: 100px 40px 0px 40px;
+    }
+
+    /*Date CSS of Site report*/
+    .date-report {
+        font-style: italic;
+        font-family: serif;
+        text-decoration: underline;
+        font-size: x-large;
+        margin:0;
+    }
+
+    /*Paragraph CSS of site report*/
+    .report-paragraph {
+        font-family: serif;
+        font-size: larger;
+    }
+
+    /*Main div of section 1 of site report*/
+    .div-wireframe-main-1 {
+        display: grid;
+        grid-template-columns: auto;
+        border: 2px solid  #3a391e;
+    }
+
+    /*Child div Main div of section 1 of site report*/
+    .div-wireframe-1-main-1 {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    /*Inner-Child of Child div Main div of section 1 of site report*/
+    .wireframe-1-div-1 {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .image-wireframe {
+        width: 90%;
+        height: auto;
+        margin: 10px;
+        display: block;
+    } 
+    
+    .report-caption{
+        text-align:center ;
+        font-family: serif;
+        font-size: larger;
+        margin: 0px;
+        text-decoration: underline;
+        font-weight: bold;
+    }
+
+    /*Second section of report page*/
+    /*Div of image header*/
+    .image-header-div-1{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    
+    .image-header-1{
+        margin: 10px auto;
+        width: 100%;
+        height: auto;
+        display: block;
+    } 
+
+    .image-header-2{
+        margin: 0 auto;
+        width: 50%;
+        height: auto;
+        display: block;
+    }
+
+    /*Hamburger Fixed*/
+    .hamburger-icon-main-div{
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .hamburger-icon-1-div-1{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .hamburger-icon-2-div-2{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .git-screenshot-1{
+        width: 85%;
+        height: auto;
+        display: block;
+        margin: 0px auto;
+    }
+    
+    .git-screenshot-2{
+        width: 70%;
+        height: auto;
+        display: block;
+        margin: 0px auto;
+    }
+
+    .git-screenshot-3{
+        width: 60%;
+        height: auto;
+        display: block;
+        margin: 0px auto;
+    }
+
+    /*Code Validation*/
+    .section-validation{
+        background-color: #f6f6e3;
+        padding: 100px 40px 40px 40px;
+    }
 }
