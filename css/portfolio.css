@@ -173,7 +173,6 @@ ul {
 /*child div-2 0f section 2 home page*/
 .heading-2-home-page {
     text-align: center;
-    text-shadow: #3a391e;
     margin: 0px;
 }
 
@@ -240,7 +239,7 @@ ul {
 .div-1-portfolio-2 {
     display: grid;
     grid-template-columns: auto;
-    background-color: #d5f6ec;
+    background-color: #e8f7f2;
     padding: 80px 30px 30px 30px;
 }
 
@@ -368,7 +367,7 @@ ul {
     display: grid;
     grid-template-columns: auto;
     padding: 60px;
-    background-color: #ddfacf;
+    background-color:#ddfacf;
     justify-content: center;
 }
 
@@ -380,7 +379,7 @@ ul {
 
 .contact-me-heading {
     margin: 0;
-    font-size: x-large;
+    font-size: xx-large;
 }
 
 .contact-1-div-1 .contact-me-heading {
@@ -391,7 +390,7 @@ ul {
 .to-contact-me-1 {
     text-align: left;
     font-size: large;
-    margin: 0;
+    margin: 10px;
 }
 
 .contact-unordered-list {
@@ -405,20 +404,26 @@ ul {
 }
 
 /*second child of Main Div of section 1 of contact page*/
-.contact-form-message {
-    padding: 5px;
-    font-size: small;
-    background-color: #d1d4cf;
-    margin: auto; 
+.contact-me-heading-2 {
+    margin: 0;
+    font-size: x-large;
+    text-align: center;
 }
 
-.contact-form-message .contact-me-heading {
-    text-align: center;
+.contact-form-message {
+    padding: 10px;
+    font-size:18px;
+    border-radius: 35px;
+    border:2px solid #3a391e;
+    font-weight: bold;
+    font-family: serif;
+    background-color: #edf1b0;
+    margin: auto; 
+    text-align: left;
 }
 
 .contact-me-form {
     margin: 5px;
-    text-align: center;
 }
 
 /*Site Report*/
@@ -463,6 +468,13 @@ ul {
     display: block;
 }
 
+.report-caption{
+    text-align:left;
+    font-family: serif;
+    font-size: larger;
+    margin: 0px auto;
+}
+
 /*Second section of report page*/
 .section-report-2{
     background-color: #f6f6e3;
@@ -481,6 +493,13 @@ ul {
     width: 80%;
     height: auto;
     margin: 10px auto;     
+}
+
+/*Third section of site report*/
+.section-report-3{
+    background-color: #f6f6e3;
+    padding: 1px 10px 10px 10px;
+    margin: 0px;
 }
 
 /*WORK EXPERIENCE*/
@@ -549,7 +568,7 @@ ul {
 }
 
 /*CSS for laptop Screen*/
-@media (width >=700px) {
+@media (width >=900px) {
 
     /*HEADER/NAVIGATION BAR*/
     /*CSS for navigation bar in Laptop screen*/
@@ -582,7 +601,6 @@ ul {
 
     .nav-list {
         padding: 12px;
-        text-justify: distribute;
         font-size: larger;
         color: #3a391e;
     }
@@ -808,51 +826,57 @@ ul {
     .contact-main-2 {
         display: grid;
         grid-template-columns: auto auto;
-        padding: 130px 10px;
-        background-color: #ddfacf;
+        padding: 150px 10px;
+        background-color:#ddfacf;
+        
     }
 
     /*first child of Main Div of section 1 of contact page*/
     .contact-1-div-1 {
         color: #605e32;
-        margin: 0 10px 0 auto;
+        margin: 10px auto ;
+        display: block;
     }
 
     .contact-me-heading {
-        font-size: xx-large;
-    }
-
-    .contact-1-div-1 .contact-me-heading {
         font-family: Copperplate, Papyrus, fantasy;
+        margin-top: 55px;
+        font-size: 60px;
     }
 
     .to-contact-me-1 {
         text-align: left;
         font-size: xx-large;
-        margin-top: 30px;
+        margin-top: 10px;
     }
 
     .contact-unordered-list {
         text-align: left;
-        margin-top: 30px;
+        margin-top: 10px;
         font-family: serif;
         font-size: x-large;
     }
 
     /*second child of Main Div of section 1 of contact page*/
-    .contact-form-message {
-        padding: 20px;
-        margin: 0px 10px 0px 40px;
-        background-color: #d1d4cf;
+    .contact-me-heading-2{
+       font-size: xx-large;
+       text-align: center;
     }
 
-    .contact-form-message .contact-me-heading {
-        text-align: center;
+    .contact-form-message {
+        padding: 60px 40px;
+        margin:10px auto 10px 40px;
+        border-radius: 35px;
+        border:2px solid #3a391e;
+        font-weight: bold;
+        font-family: serif;
+        display: block;
+        background-color: #edf1b0;
     }
 
     .contact-me-form {
-        margin: 50px;
-        text-align: center;
+        margin: 10px 50px ;
+        text-align: left;
         font-size: larger;
     }
 
@@ -902,6 +926,13 @@ ul {
         display: block;
     } 
     
+    .report-caption{
+        text-align:left ;
+        font-family: serif;
+        font-size: larger;
+        margin: 0px 10px 10px 10px;
+    }
+
     /*Second section of report page*/
     .section-report-2{
         background-color: #f6f6e3;
@@ -921,6 +952,12 @@ ul {
         display: block;
     } 
 
+    /*Third section of site report*/
+    .section-report-3{
+        background-color: #f6f6e3;
+        padding: 10px 40px 0px 40px;
+    }
+
 
     /*WORK EXPERIENCE*/
     .head-workexp{
@@ -930,9 +967,7 @@ ul {
        color: #504e23;
     }
 
-   
-
-    /*Section 1 of work experience*/
+   /*Section 1 of work experience*/
     .section-1-workexperience {
         padding: 100px 80px 10px 80px;
         background-color: #d1fcd9;
